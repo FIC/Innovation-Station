@@ -3,8 +3,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1100px"
 	 height="800px" viewBox="0 0 1100 800" enable-background="new 0 0 1100 800" xml:space="preserve">
-<g id="grid">
-	<g id="Layer_1_2_">
+<g id="grid" display="none">
+	<g id="Layer_1_2_" display="inline">
 		<g id="Layer_1_1_">
 			
 				<image overflow="visible" enable-background="new    " width="1100" height="800" xlink:href="grid.png"  transform="matrix(1 0 0 1 -8436 -8196)">
@@ -20,6 +20,8 @@
 	
 		<image display="inline" overflow="visible" width="1100" height="787" xlink:href="wireframe_home.png"  transform="matrix(1 0 0 1 -9 0)">
 	</image>
+</g>
+<g id="Layer_6">
 </g>
 <g id="footer">
 	
