@@ -1,0 +1,69 @@
+////////////////////////
+// Mixins Partials
+//
+// All of your mixins should go in this file.
+////////////////////////
+
+
+@mixin boxShadow($color) {
+	-webkit-box-shadow: 1px 1px 5px $color;
+	-moz-box-shadow: 1px 1px 5px $color;
+	box-shadow: 1px 1px 5px $color;
+}
+
+@mixin backgroundGradient(){
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin matchGradient(){
+	background: #eaf9d4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eaf9d4 0%, #a9c47f 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaf9d4), color-stop(100%,#a9c47f)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eaf9d4 0%,#a9c47f 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eaf9d4 0%,#a9c47f 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eaf9d4 0%,#a9c47f 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eaf9d4 0%,#a9c47f 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaf9d4', endColorstr='#a9c47f',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin noMatchGradient(){
+	background: #ffc6c6; /* Old browsers */ /* FF3.6+ */ /* Chrome,Safari4+ */ /* Chrome10+,Safari5.1+ */ /* Opera 11.10+ */ /* IE10+ */
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc6c6), to(#ad5454));
+	background: -webkit-linear-gradient(#ffc6c6 0%, #ad5454 100%);
+	background: -moz-linear-gradient(#ffc6c6 0%, #ad5454 100%);
+	background: -o-linear-gradient(#ffc6c6 0%, #ad5454 100%);
+	background: linear-gradient(#ffc6c6 0%, #ad5454 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc6c6', endColorstr='#ad5454',GradientType=0 ); /* IE6-9 */
+}
+
+@mixin displayCheck(){
+	background-image: url(../../images/correct.svg);
+	background-repeat: repeat-x;
+	height: 26px;
+}
+
+@mixin displayX(){
+	background-image: url(../../images/x.svg);
+	background-position: 50px 15px;
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 120px;
+	z-index: 9999;
+	position: absolute;
+	display:none;
+}
+
+@mixin background-opacity($color, $opacity: 0.3) {
+    background: $color; /* The Fallback */
+    background: rgba($color, $opacity);
+}
+
+
+

@@ -1,0 +1,49 @@
+
+
+// BUTTONS
+
+.clickable{
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.input-button{
+	padding: 5px 8px;
+	background-color: #848484;
+	margin: 5px;
+	color: white;
+}
+.input-button.active,{
+	color: white;
+}
+.input-button.disabled{
+	color: white;
+}
+
+.input-button.reset{
+
+}
+.input-button.reset:active{
+
+}
+.input-button.reset.disabled{
+
+}
+
+// DROP MENU
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    		only screen and (-o-min-device-pixel-ratio: 3/2),
+    		only screen and (min--moz-device-pixel-ratio: 1.5),
+    		only screen and (min-device-pixel-ratio: 1.5) {
+   .info-icon{
+		//background-image: url(../../images/spriteSheet2x.png);
+	}
+}
+
