@@ -275,21 +275,59 @@ img, video {
 }
 
 /* line 15, ../sass/partials/global/_uiElements.scss */
-.input-button {
-  padding: 5px 8px;
-  background-color: #848484;
-  margin: 5px;
+.btn {
+  height: 36px;
+  border: none;
+  color: #fff;
+  text-align: center;
+  padding: .45rem 1rem;
+}
+
+/* line 25, ../sass/partials/global/_uiElements.scss */
+input.btn {
+  padding: 0;
+}
+
+/* line 27, ../sass/partials/global/_uiElements.scss */
+.btn.active {
   color: white;
 }
 
-/* line 21, ../sass/partials/global/_uiElements.scss */
-.input-button.active {
+/* line 30, ../sass/partials/global/_uiElements.scss */
+.btn.disabled {
   color: white;
 }
 
-/* line 24, ../sass/partials/global/_uiElements.scss */
-.input-button.disabled {
-  color: white;
+/* line 34, ../sass/partials/global/_uiElements.scss */
+.login {
+  background-color: #26ae5f;
+}
+
+/* line 39, ../sass/partials/global/_uiElements.scss */
+.go {
+  width: 50px;
+  background-color: #26ae5f;
+}
+
+/* line 45, ../sass/partials/global/_uiElements.scss */
+.login:hover,
+.go:hover {
+  background-color: #11c35c;
+}
+
+/* line 49, ../sass/partials/global/_uiElements.scss */
+.read-more {
+  background-color: #3d97d3;
+}
+
+/* line 52, ../sass/partials/global/_uiElements.scss */
+.read-more:hover {
+  background-color: #259ceb;
+}
+
+/* line 56, ../sass/partials/global/_uiElements.scss */
+.close {
+  padding-right: 3px;
 }
 
 /* line 3, ../sass/partials/styleguide/_guide.scss */
@@ -298,9 +336,21 @@ html {
 }
 
 /* line 11, ../sass/partials/styleguide/_guide.scss */
+h1, h2 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* line 16, ../sass/partials/styleguide/_guide.scss */
 h1 {
-  margin: 0 10px;
   font-size: 1rem;
+  font-weight: 300;
+}
+
+/* line 20, ../sass/partials/styleguide/_guide.scss */
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 /* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
@@ -310,13 +360,44 @@ section:after {
   clear: both;
 }
 
+/* line 34, ../sass/partials/styleguide/_guide.scss */
+table.job_table {
+  font-size: 12px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 38, ../sass/partials/styleguide/_guide.scss */
+table.job_table th {
+  font-size: 12px;
+  background-color: #b1b1b0;
+  padding: 8px;
+  text-align: left;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ccc;
+  color: #fff;
+}
+
+/* line 47, ../sass/partials/styleguide/_guide.scss */
+table.job_table tr {
+  background-color: #ffffff;
+}
+
+/* line 48, ../sass/partials/styleguide/_guide.scss */
+table.job_table td {
+  font-size: 12px;
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #ccc;
+}
+
 /* line 3, ../sass/partials/layout/_layout.scss */
 .container {
-  background: rgba(50, 50, 50, 0.5);
   min-height: 100px;
   max-width: 100%;
   margin: 0 auto;
-  background: #ccc;
 }
 /* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
 .container:after {
@@ -324,7 +405,7 @@ section:after {
   display: table;
   clear: both;
 }
-@media (min-width: 600px) {
+@media (min-width: 770px) {
   /* line 3, ../sass/partials/layout/_layout.scss */
   .container {
     max-width: 95%;
@@ -333,11 +414,11 @@ section:after {
 @media (min-width: 1024px) {
   /* line 3, ../sass/partials/layout/_layout.scss */
   .container {
-    max-width: 1024px;
+    max-width: 984px;
   }
 }
 
-/* line 28, ../sass/partials/layout/_layout.scss */
+/* line 25, ../sass/partials/layout/_layout.scss */
 header {
   position: relative;
   float: left;
@@ -345,60 +426,80 @@ header {
   height: 100%;
   margin-top: 0;
 }
+/* line 32, ../sass/partials/layout/_layout.scss */
+header .title {
+  margin-left: 1rem;
+}
+/* line 34, ../sass/partials/layout/_layout.scss */
+header h1 {
+  margin-top: 1rem;
+  font-size: 1.2em;
+}
 /* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
 header:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 36, ../sass/partials/layout/_layout.scss */
+/* line 41, ../sass/partials/layout/_layout.scss */
 header > div:nth-child(1) {
-  width: 1033.33333%;
+  width: 877.77778%;
   float: left;
   margin-right: -100%;
   margin-left: 0%;
   clear: none;
 }
-/* line 39, ../sass/partials/layout/_layout.scss */
+/* line 44, ../sass/partials/layout/_layout.scss */
 header > div:nth-child(2) {
   display: none;
 }
 @media (min-width: 300px) {
-  /* line 28, ../sass/partials/layout/_layout.scss */
+  /* line 25, ../sass/partials/layout/_layout.scss */
   header {
     margin-top: 0;
   }
-  /* line 46, ../sass/partials/layout/_layout.scss */
+  /* line 56, ../sass/partials/layout/_layout.scss */
+  header .login {
+    margin: .8rem 1rem;
+  }
+  /* line 59, ../sass/partials/layout/_layout.scss */
   header > div:nth-child(1) {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    background: rgba(255, 255, 255, 0.25);
   }
-  /* line 50, ../sass/partials/layout/_layout.scss */
+  /* line 62, ../sass/partials/layout/_layout.scss */
   header > div:nth-child(2) {
     display: none;
   }
 }
-@media (min-width: 600px) {
-  /* line 28, ../sass/partials/layout/_layout.scss */
+@media (min-width: 770px) {
+  /* line 25, ../sass/partials/layout/_layout.scss */
   header {
     margin-top: 1rem;
   }
-  /* line 58, ../sass/partials/layout/_layout.scss */
+  /* line 70, ../sass/partials/layout/_layout.scss */
+  header h1 {
+    margin-top: .45rem;
+    font-size: 1.7em;
+  }
+  /* line 75, ../sass/partials/layout/_layout.scss */
+  header .info-bar {
+    padding: 10px 0 0 0;
+  }
+  /* line 80, ../sass/partials/layout/_layout.scss */
   header > div:nth-child(1) {
-    width: 29.03226%;
+    width: 49.36709%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
-    background: rgba(255, 255, 255, 0.5);
   }
-  /* line 62, ../sass/partials/layout/_layout.scss */
+  /* line 83, ../sass/partials/layout/_layout.scss */
   header > div:nth-child(2) {
-    width: 67.74194%;
+    width: 49.36709%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -407,22 +508,22 @@ header > div:nth-child(2) {
   }
 }
 @media (min-width: 1024px) {
-  /* line 28, ../sass/partials/layout/_layout.scss */
-  header {
-    margin-top: 1em;
+  /* line 92, ../sass/partials/layout/_layout.scss */
+  header h1 {
+    margin-top: .25rem;
+    font-size: 2em;
   }
-  /* line 71, ../sass/partials/layout/_layout.scss */
+  /* line 97, ../sass/partials/layout/_layout.scss */
   header > div:nth-child(1) {
-    width: 29.03226%;
+    width: 49.36709%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
-    background: rgba(255, 255, 255, 0.75);
   }
-  /* line 75, ../sass/partials/layout/_layout.scss */
+  /* line 101, ../sass/partials/layout/_layout.scss */
   header > div:nth-child(2) {
-    width: 67.74194%;
+    width: 49.36709%;
     float: right;
     margin-left: 0;
     margin-right: 0;
@@ -431,115 +532,64 @@ header > div:nth-child(2) {
   }
 }
 
-/* line 83, ../sass/partials/layout/_layout.scss */
+/* line 109, ../sass/partials/layout/_layout.scss */
 .top-bar {
-  background: rgba(255, 0, 0, 0.5);
-  min-height: 40px;
+  min-height: 60px;
   margin-bottom: 1rem;
 }
 
-/* line 89, ../sass/partials/layout/_layout.scss */
+/* line 114, ../sass/partials/layout/_layout.scss */
 .title {
   float: left;
 }
 
-/* line 93, ../sass/partials/layout/_layout.scss */
-.info-bar {
-  background: rgba(255, 50, 50, 0.5);
-}
-/* line 96, ../sass/partials/layout/_layout.scss */
-.info-bar .username {
+/* line 120, ../sass/partials/layout/_layout.scss */
+.info-bar .user {
   margin: 0;
   padding: 0;
   width: 200px;
-  float: left;
-}
-/* line 103, ../sass/partials/layout/_layout.scss */
-.info-bar .sign-in {
-  background: orange;
-  width: 200px;
   float: right;
 }
-@media (min-width: 600px) {
-  /* line 111, ../sass/partials/layout/_layout.scss */
-  .info-bar > div:nth-child(1) {
-    width: 41.93548%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-  }
-  /* line 114, ../sass/partials/layout/_layout.scss */
-  .info-bar > div:nth-child(2) {
-    width: 54.83871%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
-}
-@media (min-width: 1024px) {
-  /* line 122, ../sass/partials/layout/_layout.scss */
-  .info-bar > div:nth-child(1) {
-    width: 54.83871%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-  }
-  /* line 125, ../sass/partials/layout/_layout.scss */
-  .info-bar > div:nth-child(2) {
-    width: 41.93548%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-  }
+/* line 131, ../sass/partials/layout/_layout.scss */
+.info-bar .form-login {
+  float: right;
 }
 
-/* line 133, ../sass/partials/layout/_layout.scss */
+/* line 137, ../sass/partials/layout/_layout.scss */
 .login {
   float: right;
 }
 @media (min-width: 300px) {
-  /* line 133, ../sass/partials/layout/_layout.scss */
+  /* line 137, ../sass/partials/layout/_layout.scss */
   .login {
     display: inherit;
   }
 }
-@media (min-width: 600px) {
-  /* line 133, ../sass/partials/layout/_layout.scss */
+@media (min-width: 770px) {
+  /* line 137, ../sass/partials/layout/_layout.scss */
   .login {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  /* line 133, ../sass/partials/layout/_layout.scss */
+  /* line 137, ../sass/partials/layout/_layout.scss */
   .login {
     display: none;
   }
 }
 
-/* line 149, ../sass/partials/layout/_layout.scss */
+/* line 154, ../sass/partials/layout/_layout.scss */
 .welcome {
-  background: rgba(0, 100, 100, 0.5);
   clear: both;
   width: 100%;
 }
-/* line 154, ../sass/partials/layout/_layout.scss */
-.welcome .welome-text {
-  font-size: 1.5rem;
-  font-weight: bold;
+/* line 158, ../sass/partials/layout/_layout.scss */
+.welcome p {
+  margin: 0 1rem;
 }
-/* line 159, ../sass/partials/layout/_layout.scss */
-.welcome .read-more {
-  width: 100px;
-  margin: 5px auto;
-}
-/* line 164, ../sass/partials/layout/_layout.scss */
+/* line 160, ../sass/partials/layout/_layout.scss */
 .welcome .hero {
   min-height: 250px;
-  background: rgba(255, 255, 255, 0.5);
 }
 /* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
 .welcome:after {
@@ -547,17 +597,16 @@ header > div:nth-child(2) {
   display: table;
   clear: both;
 }
-/* line 171, ../sass/partials/layout/_layout.scss */
+/* line 166, ../sass/partials/layout/_layout.scss */
 .welcome > div:nth-child(1) {
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background: rgba(255, 255, 255, 0.5);
-  margin-bottom: 1rem;
+  display: none;
 }
-/* line 176, ../sass/partials/layout/_layout.scss */
+/* line 170, ../sass/partials/layout/_layout.scss */
 .welcome > div:nth-child(2) {
   width: 100%;
   float: right;
@@ -566,17 +615,16 @@ header > div:nth-child(2) {
   clear: none;
 }
 @media (min-width: 300px) {
-  /* line 183, ../sass/partials/layout/_layout.scss */
+  /* line 178, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(1) {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    background: rgba(255, 255, 255, 0.5);
-    margin-bottom: 1rem;
+    display: none;
   }
-  /* line 188, ../sass/partials/layout/_layout.scss */
+  /* line 182, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(2) {
     width: 100%;
     float: right;
@@ -585,94 +633,187 @@ header > div:nth-child(2) {
     clear: none;
   }
 }
-@media (min-width: 600px) {
-  /* line 196, ../sass/partials/layout/_layout.scss */
+@media (min-width: 770px) {
+  /* line 190, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(1) {
-    width: 35.48387%;
+    width: 43.03797%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
     display: inherit;
   }
-  /* line 200, ../sass/partials/layout/_layout.scss */
+  /* line 194, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(2) {
-    width: 61.29032%;
+    width: 55.6962%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    background: rgba(255, 255, 255, 0.5);
-  }
-}
-@media (min-width: 1024px) {
-  /* line 208, ../sass/partials/layout/_layout.scss */
-  .welcome > div:nth-child(1) {
-    width: 35.48387%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0%;
-    clear: none;
-    display: inherit;
-  }
-  /* line 212, ../sass/partials/layout/_layout.scss */
-  .welcome > div:nth-child(2) {
-    width: 61.29032%;
-    float: right;
-    margin-left: 0;
-    margin-right: 0;
-    clear: none;
-    background: rgba(255, 255, 255, 0.5);
   }
 }
 
+/* line 206, ../sass/partials/layout/_layout.scss */
+.misc p {
+  font-size: .8rem;
+}
 /* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
 .misc:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 226, ../sass/partials/layout/_layout.scss */
+/* line 212, ../sass/partials/layout/_layout.scss */
 .misc > div:nth-child(1) {
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background: rgba(255, 255, 255, 0.5);
   margin-bottom: 1rem;
 }
-/* line 231, ../sass/partials/layout/_layout.scss */
+/* line 216, ../sass/partials/layout/_layout.scss */
 .misc > div:nth-child(2) {
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none;
-  background: rgba(255, 255, 255, 0.5);
 }
-@media (min-width: 600px) {
-  /* line 239, ../sass/partials/layout/_layout.scss */
+@media (min-width: 770px) {
+  /* line 223, ../sass/partials/layout/_layout.scss */
   .misc > div:nth-child(1) {
-    width: 48.3871%;
+    width: 49.36709%;
     float: left;
     margin-right: -100%;
     margin-left: 0%;
     clear: none;
     display: inherit;
   }
-  /* line 243, ../sass/partials/layout/_layout.scss */
+  /* line 227, ../sass/partials/layout/_layout.scss */
   .misc > div:nth-child(2) {
-    width: 48.3871%;
+    width: 49.36709%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none;
-    background: rgba(255, 255, 255, 0.5);
   }
 }
 
-/* line 254, ../sass/partials/layout/_layout.scss */
+/* line 238, ../sass/partials/layout/_layout.scss */
+.form-login label {
+  display: none;
+}
+/* line 242, ../sass/partials/layout/_layout.scss */
+.form-login .username, .form-login .password {
+  float: left;
+  width: 145px;
+  height: 36px;
+  margin-right: 10px;
+  padding: 0 10px;
+  border: 1px solid white;
+}
+
+/* line 256, ../sass/partials/layout/_layout.scss */
+.main {
+  clear: both;
+  display: table;
+  width: 100%;
+}
+/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
+.main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* line 262, ../sass/partials/layout/_layout.scss */
+.main .info {
+  width: 215px;
+}
+/* line 266, ../sass/partials/layout/_layout.scss */
+.main section > div {
+  margin-bottom: 1rem;
+}
+/* line 270, ../sass/partials/layout/_layout.scss */
+.main table td {
+  position: relative;
+}
+/* line 274, ../sass/partials/layout/_layout.scss */
+.main .delete {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+}
+/* line 281, ../sass/partials/layout/_layout.scss */
+.main > section:nth-child(1) {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: table-footer-group;
+}
+/* line 286, ../sass/partials/layout/_layout.scss */
+.main > section:nth-child(2) {
+  margin-bottom: 1rem;
+  width: 100%;
+  display: table-header-group;
+}
+/* line 292, ../sass/partials/layout/_layout.scss */
+.main table .col2 {
+  display: none;
+}
+@media (min-width: 770px) {
+  /* line 295, ../sass/partials/layout/_layout.scss */
+  .main section > div {
+    margin-bottom: 0;
+  }
+  /* line 299, ../sass/partials/layout/_layout.scss */
+  .main > section:nth-child(1) {
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  /* line 302, ../sass/partials/layout/_layout.scss */
+  .main > section:nth-child(2) {
+    width: 74.68354%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  /* line 306, ../sass/partials/layout/_layout.scss */
+  .main table .col2 {
+    display: table-cell;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 309, ../sass/partials/layout/_layout.scss */
+  .main section > div {
+    margin-bottom: 0;
+  }
+  /* line 313, ../sass/partials/layout/_layout.scss */
+  .main > section:nth-child(1) {
+    width: 24.05063%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+  }
+  /* line 316, ../sass/partials/layout/_layout.scss */
+  .main > section:nth-child(2) {
+    width: 74.68354%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+  }
+  /* line 320, ../sass/partials/layout/_layout.scss */
+  .main table .col2 {
+    display: table-cell;
+  }
+}
+
+/* line 327, ../sass/partials/layout/_layout.scss */
 footer {
   background: gray;
   width: 100%;
@@ -686,4 +827,72 @@ footer:after {
   content: "";
   display: table;
   clear: both;
+}
+
+/* line 3, ../sass/partials/design/_design.scss */
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* line 8, ../sass/partials/design/_design.scss */
+body {
+  background-color: #5e5e5d;
+  background-image: url(../img/bg2.jpg);
+  background-repeat: repeat-x;
+}
+@media (min-width: 770px) {
+  /* line 8, ../sass/partials/design/_design.scss */
+  body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* line 26, ../sass/partials/design/_design.scss */
+.title {
+  color: white;
+}
+
+/* line 30, ../sass/partials/design/_design.scss */
+.welcome p {
+  color: white;
+}
+/* line 33, ../sass/partials/design/_design.scss */
+.welcome p .welcome-text {
+  font-size: 1rem;
+  font-weight: bold;
+}
+@media (min-width: 300px) {
+  /* line 33, ../sass/partials/design/_design.scss */
+  .welcome p .welcome-text {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 770px) {
+  /* line 33, ../sass/partials/design/_design.scss */
+  .welcome p .welcome-text {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 33, ../sass/partials/design/_design.scss */
+  .welcome p .welcome-text {
+    font-size: 1.5rem;
+  }
+}
+
+/* line 49, ../sass/partials/design/_design.scss */
+.read-more {
+  width: 130px;
+  margin: 25px auto;
+}
+
+/* line 57, ../sass/partials/design/_design.scss */
+.box {
+  padding: 10px;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid #cccccc;
 }

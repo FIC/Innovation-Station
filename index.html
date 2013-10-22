@@ -9,6 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/screen.css">
         <script src="js/vendor/modernizr.development.js"></script>
@@ -24,27 +25,30 @@
 
             <header>  
                 <div class="top-bar">
-                    <h1 class="title">Innovation Station</h1>
-                    <div class="clickable input-button login">Login</div>
+                    <h1 class="title">The Innovation Station</h1>
+                    <div class="clickable btn login">Sign In</div>
                 </div>
 
                 <div class="top-bar info-bar">
-                    <div class="username">{user name}</div>
-                    <div class="sign-in">{sign in}
-                      <!--   <form action="">
+                   <!--  <div class="user">{user name}</div> -->
+                    <div class="sign-in">
+                        <form action="" class="form-login">
                             <label for="username">Username</label>
-                            <input type="input" 
+                            <input type="text" 
                                    autocorrect="off" 
                                    autocapitalize="off"
                                    tabIndex="1"
-                                   class="username">
+                                   class="username"
+                                   placeholder="Username">
                             <label for="password">Password</label>
                             <input type="password" 
-                                   class="password">
+                                   class="password"
+                                   placeholder="Password">
                             <input type="submit" 
                                    value="Go" 
-                                   class="button-submit">
-                        </form> -->
+                                   class="clickable btn go"
+                                    >
+                        </form>
                     </div>
 
                 </div>
@@ -66,12 +70,11 @@
 
              <section class="welcome">
                 <div class="hero">
-                    {image}
+                  <!--   {image} -->
                 </div>
                 <div>
-                    {welcome}
-                    <p> <span class="welome-text">Welcome to the Innovation Station.</span> A placerat vel habitasse scelerisque ac auctor parturient, tristique auctor ac tortor integer, dapibus elementum purus, aenean ridiculus, nascetur ac mauris.</p>
-                <div class="clickable input-button read-more" id="learn-more">Learn more</div>
+                    <p> <span class="welcome-text">Welcome to the Innovation Station.</span> A placerat vel habitasse scelerisque ac auctor parturient, tristique auctor ac tortor integer, dapibus elementum purus, aenean ridiculus, nascetur ac mauris.</p>
+                <div class="clickable btn read-more" id="learn-more">Learn more</div>
                 </div>
 
             </section>
@@ -80,18 +83,20 @@
              <!-- MISC -->
             
             <section class="misc">
-                <div>
-                  <p>Natoque lundium hac lectus eros enim. Pid sed? Ridiculus magna odio. In dis elementum urna, duis, porta integer, facilisis sit natoque dapibus turpis in! Dictumst? Ac? Odio penatibus, etiam scelerisque integer nunc, integer, ultricies in elit! Pellentesque in odio mus scelerisque tincidunt ultrices? Placerat? Lorem, dictumst a augue, habitasse vel, nisi mattis! Pid sed! Sagittis lundium, purus. Aenean enim eu nec nisi ut! Enim nisi? Aliquet, auctor ridiculus, dignissim pid? Elit turpis. Augue tincidunt tortor sed in non? Augue augue ac? Pulvinar elementum massa. Purus eros ac elit scelerisque porta, elit turpis tempor a? Pellentesque tristique pid duis non tempor rhoncus vut eu porta! Arcu integer nec urna natoque lundium. Et phasellus pid porttitor mauris, augue! Nunc. Placerat? Platea et.</p>
+                <div class="box">
+                    <h2>Natoque lundium hac lectus eros enim.</h2>
+                    <p>Pid sed? Ridiculus magna odio. In dis elementum urna, duis, porta integer, facilisis sit natoque dapibus turpis in! Dictumst? Ac? Odio penatibus, etiam scelerisque integer nunc, integer, ultricies in elit! Pellentesque in odio mus scelerisque tincidunt ultrices? Placerat? Lorem, dictumst a augue, habitasse vel, nisi mattis! Pid sed! Sagittis lundium, purus. </p>
                 </div>
-                <div>
-                   <p>Phasellus porttitor cursus dictumst mus enim aenean, dignissim mauris pellentesque hac vel ac, sed pellentesque odio platea, cum ut vel, a ultricies tincidunt amet et, phasellus? Enim, vel tristique mid etiam a, turpis, phasellus sociis augue. Elementum, duis dictumst porta? Platea turpis placerat in, nec mus nisi sed rhoncus in? Dis scelerisque, facilisis eu elementum, enim, porttitor habitasse nec egestas proin vut scelerisque duis sagittis porta integer scelerisque pid odio sagittis integer a rhoncus risus duis sit dis velit urna parturient cursus, tincidunt hac magnis augue aliquet vel egestas integer nisi nisi lundium porttitor vel! Pulvinar! In nisi parturient, turpis arcu ultrices adipiscing! Lacus, proin hac sagittis, magnis augue scelerisque proin quis massa dictumst in urna a, adipiscing nec.</p>
+                <div class="box">
+                    <h2>Phasellus porttitor cursus dictumst mus enim aenean, d</h2>
+                    <p>Dignissim mauris pellentesque hac vel ac, sed pellentesque odio platea, cum ut vel, a ultricies tincidunt amet et, phasellus? Enim, vel tristique mid etiam a, turpis, phasellus sociis augue. Elementum, duis dictumst porta? Platea turpis placerat in, nec mus nisi sed rhoncus in? Dis scelerisque, facilisis eu elementum, enim, porttitor habitasse nec egestas proin vut scelerisque duis sagittis .</p>
                 </div>
             </section>
 
 
             <!-- FOOTER -->
             
-            <footer>{footer}
+            <footer class="box">{footer}
             </footer>
 
 

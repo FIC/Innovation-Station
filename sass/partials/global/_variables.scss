@@ -3,10 +3,18 @@
 ////////////////////////
 
 $mobile-break: 300px;
-$tablet-break: 600px;
+$tablet-break: 770px;
 $desktop-break: 1024px;
+
+$logo-break: 910px;
+
+// colors
+$box-color: rgba(255,255,255,.75);
+$box-stroke: #ccc;
+$green: #26ae5f;
+$blue: #3d97d3;
 
 $grids: 2;
 //$grids: add-grid(4 at $desktop-break);
-$gutters: 1;
+// $gutters: 1;
 

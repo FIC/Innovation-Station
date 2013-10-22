@@ -1,12 +1,9 @@
 
 
 .container {
-	background: rgba(50,50,50,.5);
 	min-height: 100px;
-
   	max-width: 100%;
   	margin: 0 auto;
-  	background: #ccc;
 
   	@include clearfix;
 
@@ -17,7 +14,7 @@
 		max-width: 95%;
 	}
 	@include breakpoint($desktop-break) { 
-	   max-width: $desktop-break;
+	   max-width: $desktop-break - 40;
 	}
 
 }
@@ -30,9 +27,17 @@ header{
 	float: left;
 	width: 100%;
 	height: 100%;
+    margin-top: 0;
+
+    .title{    margin-left: 1rem;}
+
+	h1 { 
+		margin-top:1rem;
+		font-size: 1.2em;
+	}  
+	
 	@include clearfix;
 
-    margin-top: 0;
 	> div:nth-child(1){
 		@include grid-span(16, 1);
 	}
@@ -40,40 +45,61 @@ header{
 		display:none;
 	}
 
-	@include breakpoint($mobile-break) {  
+	@include breakpoint($mobile-break) {
 		margin-top: 0;
+
+		// h1 { 
+		// 	margin-top:1rem;
+		// 	font-size: 1.7em;
+		// }  
+
+		.login{	margin: .8rem 1rem;}
+
 		@include layout(16){
 			> div:nth-child(1){
 				@include grid-span(16, 1);
-				background:rgba(255,255,255, .25);
 			}
 			> div:nth-child(2){
 				display:none;
 			}
 		}	
 	}
-	@include breakpoint($tablet-break) {  
+	@include breakpoint($tablet-break) { 
 		margin-top: 1rem;
+
+		h1 { 
+			margin-top:.45rem;
+			font-size: 1.7em;
+		}  
+
+	    .info-bar{
+	    	padding:10px 0 0 0;
+	    }
+
 		@include layout(16){
 			> div:nth-child(1){
-				@include grid-span(5, 1);
-                background:rgba(255,255,255, .5);
+				@include grid-span(8, 1);
 			}
 			> div:nth-child(2){
-				@include grid-span(11, 6);
+				@include grid-span(8, 9);
 				display:inherit;
 			}
 		}		
-	}
-	@include breakpoint($desktop-break) {  
-		margin-top: 1em;
+	}	
+
+	@include breakpoint($desktop-break) { 
+
+		h1 { 
+			margin-top:.25rem;
+			font-size: 2em;
+		}  
 		@include layout(16){
 			> div:nth-child(1){
-				@include grid-span(5, 1);
-				background:rgba(255,255,255, .75);
+
+				@include grid-span(8, 1);
 			}
 			> div:nth-child(2){
-				@include grid-span(11, 6);
+				@include grid-span(8, 9);
 				display:inherit;
 			}
 		}	
@@ -81,8 +107,7 @@ header{
 }
 
 .top-bar{
-	background:rgba(255,0,0,.5);
-	min-height:40px;
+	min-height:60px;
 	margin-bottom: 1rem;
 }
 
@@ -91,47 +116,27 @@ header{
 }
 
 .info-bar{
-	background: rgba(255, 50, 50, .5);
 
-	.username{
+	.user{
 		margin: 0;
 		padding:0;
 		width: 200px;
-		float: left;
-	}
-
-	.sign-in{
-		background: orange;
-		width:200px;
 		float: right;
 	}
 
-	@include breakpoint($tablet-break) {
-		@include layout(16){
-			> div:nth-child(1){
-				@include grid-span(7, 1);
-			}
-			> div:nth-child(2){
-				@include grid-span(9, 8);
+	.sign-in{
 
-			}
-		}	
-	}	
-	@include breakpoint($desktop-break) {
-		@include layout(16){
-			> div:nth-child(1){
-				@include grid-span(9, 1);
-			}
-			> div:nth-child(2){
-				@include grid-span(7, 10);
+	}
 
-			}
-		}	
-	}	
+	.form-login{
+		float:right;
+	}
+
 }
 
 .login{
 	float:right;
+
 	@include breakpoint($mobile-break) {  
 		display:inherit;
 	}
@@ -144,37 +149,27 @@ header{
 }
 
 
-// WELCOME
+// HOMEPAGE: WELCOME
 
 .welcome {
-	background: rgba(0, 100, 100, .5);
 	clear:both;
 	width: 100%;
 
-	.welome-text{
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
-
-	.read-more{
-		width: 100px;
-		margin:5px auto;
-	}
+	p{	margin: 0 1rem;}
 
 	.hero{
 		min-height: 250px;
-		background:rgba(255,255,255, .5);
 	}
 	
 	@include clearfix;
 	@include layout(16){
 		> div:nth-child(1){
 			@include grid-span(16, 1);
-			background:rgba(255,255,255, .5);
-			margin-bottom: 1rem;
+			display: none;
 		}
 		> div:nth-child(2){
 			@include grid-span(16, 1);
+
 		}
 	}	
 
@@ -182,55 +177,44 @@ header{
 		@include layout(16){
 			> div:nth-child(1){
 				@include grid-span(16, 1);
-				background:rgba(255,255,255, .5);
-				margin-bottom: 1rem;
+				display: none;
 			}
 			> div:nth-child(2){
 				@include grid-span(16, 1);
-
+                
 			}
 		}	
 	}
 	@include breakpoint($tablet-break) {  
 		@include layout(16){
 			> div:nth-child(1){
-				@include grid-span(6, 1);
+				@include grid-span(7, 1);
 				display: inherit;
 			}
 			> div:nth-child(2){
-				@include grid-span(10, 7);
-				background:rgba(255,255,255, .5);
-			}
-		}	
-	}
-	@include breakpoint($desktop-break) {  
-		@include layout(16){
-			> div:nth-child(1){
-				@include grid-span(6, 1);
-				display: inherit;
-			}
-			> div:nth-child(2){
-				@include grid-span(10, 7);
-				background:rgba(255,255,255, .5);
+				@include grid-span(9, 8);
 			}
 		}	
 	}
 }
 
 
-// MISC
+// HOMEPAGE: MISC
 
-.misc {
+.misc{
+
+	p{	
+		font-size: .8rem;
+	}
+
 	@include clearfix;
 	@include layout(16){
 		> div:nth-child(1){
 			@include grid-span(16, 1);
-			background:rgba(255,255,255, .5);
 			margin-bottom: 1rem;
 		}
 		> div:nth-child(2){
 			@include grid-span(16, 1);
-			background:rgba(255,255,255, .5);
 		}
 	}	
 
@@ -242,9 +226,98 @@ header{
 			}
 			> div:nth-child(2){
 				@include grid-span(8, 9);
-				background:rgba(255,255,255, .5);
 			}
 		}	
+	}
+}
+
+//
+
+.form-login{
+	
+	label{
+		display: none;
+	}
+
+	.username,.password{
+		float:left;
+		width:145px;
+		height:36px;
+		margin-right: 10px;
+		padding:0 10px;
+		border: 1px solid white;
+	}
+
+}
+
+
+// MY PRINT JOBS
+
+.main{
+	clear:both;
+	@include clearfix;
+	display: table; 
+	width: 100%;
+
+	.info{
+		width: 215px;
+	}
+
+	section > div{
+		margin-bottom: 1rem;
+	}
+
+	table td{
+		position: relative;
+	}
+
+	.delete{
+		position:absolute;
+		top: -2px;
+		right: -2px;
+	}
+
+	@include layout(16){
+		> section:nth-child(1){			
+			margin-bottom: 1rem;
+			width:100%;
+			display: table-footer-group;
+		}
+		> section:nth-child(2){
+			margin-bottom: 1rem;
+			width:100%;
+			display: table-header-group;
+		}
+
+		table .col2{display:none}
+	}
+	@include breakpoint($tablet-break) { 
+		section > div{
+			margin-bottom: 0;
+		} 
+		@include layout(16){
+			> section:nth-child(1){
+				@include grid-span(4, 1);
+			}
+			> section:nth-child(2){
+				@include grid-span(12, 5);
+			}
+		}
+		table .col2{display:table-cell}
+	}
+	@include breakpoint($desktop-break) { 
+		section > div{
+			margin-bottom: 0;
+		} 
+		@include layout(16){
+			> section:nth-child(1){
+				@include grid-span(4, 1);
+			}
+			> section:nth-child(2){
+				@include grid-span(12, 5);
+			}
+		}
+		table .col2{display:table-cell}
 	}
 }
 
