@@ -1,19 +1,13 @@
 ////////////////////////
 // Extendables Partials
 //
-// All of your extendable classes, ids, and placeholder extendables
-//   should go in this file.
 ////////////////////////
 
-// %fly-left {
-//   @include breakpoint('max-width' $measure-break) {
-//     position: relative;
-//     padding: 1em;
-
-//     @include single-transition(all .5s);
-
-//     .open & {
-//       left: -90vw;
-//     }
-//   }
-// }
+%btn-icon {
+  	position: absolute;
+	left:0;
+	top:0;
+	height: 2rem;
+	padding:9px;
+	
+}

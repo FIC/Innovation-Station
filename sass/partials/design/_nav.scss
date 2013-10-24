@@ -1,0 +1,27 @@
+.user a:link,
+.user a:active,
+.user a:visited{
+	color:$top-bar-text-color;
+	text-decoration: none; 
+}
+.usernav{
+
+}
+
+.usernav ul {
+	margin:0;
+}
+
+.usernav ul li{
+	display: inline-block;
+	color: $mini-nav-text;
+	font-size: 1.1rem;
+	padding:12px;
+}
+
+.usernav ul li a:link,
+.usernav ul li a:active,
+.usernav ul li a:visited{
+	color: $mini-nav-text;
+	text-decoration: none; 
+}

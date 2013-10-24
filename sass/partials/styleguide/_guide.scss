@@ -5,20 +5,20 @@ html{
 }
 
 body{
-
+	color:$text-color;
 }
 
 h1, h2{
 	margin: 0;
-	font-weight: normal;
+	font-weight: 300;
 }
 
 h1{
-	font-size: 1rem;
+	font-size: 2rem;
 	font-weight: 300;
 }
 h2{
-	font-size: 1rem;
+	font-size: 1.3rem;
 	margin-bottom: 1rem;
 }
 
@@ -30,24 +30,3 @@ section{
 	@include clearfix;
 }
 
-
-table.job_table {font-size:12px;
-				 width:100%;
-				 border-collapse: collapse;
-				}
-table.job_table th {font-size:12px;
-				  background-color:#b1b1b0;
-				  padding: 8px;
-				  text-align:left;
-				  border-width: 1px;
-				  border-style: solid;
-				  border-color: #ccc;
-				  color: #fff;
-				}
-table.job_table tr {background-color:#ffffff;}
-table.job_table td {font-size:12px;
-				  border-width: 1px;
-				  padding: 8px;
-				  border-style: solid;
-				  border-color: #ccc;
-				}

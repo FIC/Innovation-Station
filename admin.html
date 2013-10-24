@@ -26,7 +26,7 @@
 
             <header>  
                 <div class="top-bar">
-                    <h1 class="title"><a href="#">The Innovation Station</a></h1>
+                    <h1 class="title">The Innovation Station</h1>
                     <div class="clickable btn navicon"><img src="img/navicon.svg" alt="menu"></div>
                     
                 </div>
@@ -54,67 +54,88 @@
             <!-- MAIN -->
 
             <div class="main">
-                
-                <section class="box info">
-                   <div>
-                        <h2>Info</h2>
-                    {info}
-                </div> 
-                </section>
 
 
-                <section class="box my-jobs">
+                <section class="box admin">
                     <div>
-                        <h2>My Print Jobs</h2>
-                        <table class="job_table" border="0">
+                        <h2>Admininstrator</h2>
+                        <table class="admin_table" border="0">
                             <tr>
-                                <th>Part Name <div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
+                                <th class="col-id">ID<div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
+                                <th class="col-user">User <div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
+                                <th class="col-part">Part Name <div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
                                 <th class="col-submitted">Submitted On <div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
-                                <th>Status</th>
-                                <th class="col-4"><div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
+                                <th class="col-status">Status</th>
+                                <th><div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>
                             </tr>
-                            <tr><td>My Super Cool test part </td>
+                            <tr>
+                                <td class="col-id">16</td>
+                                <td class="col-user">User name</td>
+                                <td class="col-part">My Super Cool test part </td>
                                 <td class="col-submitted">10.25.2013 2:20 PM</td>
-                                <td>Awaiting Auth</td>
-                                <td><div class="clickable btn cancel"><span class="icon-close"><img src="img/x.svg"></span> <span class="cancel-text">Cancel</span></div></td>
+                                <td class="col-status">Awaiting Auth</td>
+                                <td>
+                                    <div class="clickable btn approve">
+                                        <span class="icon-approve">
+                                            <img src="img/check.svg">
+                                        </span> 
+                                            <span class="approve-text">Approve</span>
+                                    </div>
+                                </td>
                             </tr> 
                             <tr>
-                                <td>Scull and Crossbones</td>
+                                <td class="col-id">15</td>
+                                <td class="col-user">User name</td>
+                                <td class="col-part">Scull and Crossbones</td>
                                 <td class="col-submitted">10.25.2013 12:49 PM</td>
-                                <td>Awaiting Auth</td>
-                                <td><div class="clickable btn cancel"><span class="icon-close"><img src="img/x.svg"></span> <span class="cancel-text">Cancel</span></div></td>
+                                <td class="col-status">Awaiting Auth</td>
+                                <td>
+                                    <div class="clickable btn approve">
+                                        <span class="icon-approve">
+                                            <img src="img/check.svg">
+                                        </span> 
+                                            <span class="approve-text">Approve</span>
+                                    </div>
+                                </td>
                             </tr>
-                         
                             <tr>
-                                <td>Another Cool 3D part</td>
+                                <td class="col-id">14</td>
+                                <td class="col-user">User name</td>
+                                <td class="col-part">Another Cool 3D part</td>
                                 <td class="col-submitted">10.21.2013 8:15 AM</td>
-                                <td>In Queue</td>
-                                <td><div class="clickable btn cancel"><span class="icon-close"><img src="img/x.svg"></span> <span class="cancel-text">Cancel</span></div></td>
+                                <td class="col3">In Queue</td>
+                                <td class="col4"><div class="clickable btn cancel"><span class="icon-close"><img src="img/x.svg"></span> <span class="cancel-text">Cancel</span></div></td>
                             </tr>  
                                             
                             <tr>
-                                <td>Some Other Stuff</td>
+                                <td class="col-id">13</td>
+                                <td class="col-user">Joe Schmoe</td>
+                                <td class="col-part">Some Other Stuff</td>
                                 <td class="col-submitted">10.21.2013 8:15 AM</td>
-                                <td>Printing</td>
+                                <td class="col-status">Printing</td>
                                 <td><div class="clickable btn cancel"><span class="icon-close"><img src="img/x.svg"></span> <span class="cancel-text">Cancel</span></div></td>
                             </tr> 
                             
                             <tr>
-                                <td>My Second Project</td>
+                                <td class="col-id">12</td>
+                                <td class="col-user">John Doe</td>
+                                <td class="col-part">My Second Project</td>
                                 <td class="col-submitted">10.21.2013 8:15 AM</td>
-                                <td>Completed</td>
-                                <td><div class="clickable btn cancel"><span class="icon-close"><img src="img/trash.svg"></span> <span class="remove-text">Remove</span></div></td>
+                                <td class="col-status">Completed</td>
+                                <td ><div class="clickable btn cancel"><span class="icon-close"><img src="img/trash.svg"></span> <span class="remove-text">Remove</span></div></td>
                             </tr>  
 
                             <tr>
-                                <td>My Very First 3D Print Project</td>
+                                <td class="col-id">11</td>
+                                <td class="col-user">Sally Smith</td>
+                                <td class="col-part">My Very First 3D Print Project</td>
                                 <td class="col-submitted">9.8.2013 6:15 PM</td>
-                                <td>Completed</td>
+                                <td class="col-status">Completed</td>
                                 <td><div class="clickable btn cancel"><span class="icon-close"><img src="img/trash.svg"></span> <span class="remove-text">Remove</span></div></td>
                             </tr> 
                             
                         </table>
-                    </div>  
+                    </div> 
                 </section>
 
             </div>

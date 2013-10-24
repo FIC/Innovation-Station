@@ -1,0 +1,145 @@
+
+
+// BUTTONS
+
+.clickable{
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.btn{
+	padding: .45rem 1rem;
+	height:2rem;
+	border:none;
+	color:#fff;
+	font-size: .9rem; 
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+input.btn{	padding:0; } // submit button fix
+
+.btn.active,{
+	color: white;
+}
+.btn.disabled{
+	color: white;
+}
+
+.login{
+	background-color: $green;
+}
+
+.go{
+	width: 50px;
+	background-color: $green;
+}
+
+.login:hover,
+.go:hover{
+	@include hover($green);  
+}
+
+
+// NAV
+
+.navicon{
+		padding: 7px 7px 5px 7px;
+	background-color: $blue;
+}
+.navicon:hover,
+.navicon:active{
+	@include hover($blue);  
+}
+
+
+// 
+
+.approve{
+	position: relative;
+	background-color: $green;
+	width:2rem;
+	
+	.approve-text{
+		display:none;
+		margin-left: 25px;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 110px;
+
+	    .approve-text{
+			display:inherit;	
+		}
+	}
+}
+.icon-approve{
+	@extend %btn-icon;
+	background-color: darken($green,10);
+}
+// cancel
+
+.cancel{
+		@include transition(.5s);
+	position: relative;
+	background-color: $red;
+	width:2rem;
+
+	.cancel-text{
+		display:none;
+		margin-left: 29px;
+	}
+	.remove-text{
+		display:none;
+		margin-left: 27px;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 110px;
+	    // padding-left: 45px;
+	    .cancel-text,.remove-text{
+			display:inherit;
+		}
+	}
+}
+.cancel:hover{
+	@include hover($red);  
+	.icon-close{ @include hover(darken($red,10));}
+}
+.icon-close{
+	@extend %btn-icon;
+	background-color: darken($red,10);
+}
+
+
+//
+
+.read-more{
+	background-color: $blue;
+	text-transform: uppercase;
+}
+.read-more:hover{
+	@include hover($blue); 
+}
+
+
+
+// DROP MENU
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+    		only screen and (-o-min-device-pixel-ratio: 3/2),
+    		only screen and (min--moz-device-pixel-ratio: 1.5),
+    		only screen and (min-device-pixel-ratio: 1.5) {
+   .info-icon{
+		//background-image: url(../../images/spriteSheet2x.png);
+	}
+}
+

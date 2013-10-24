@@ -1,31 +1,48 @@
 
+@import "uiElements";
+@import "nav";
+@import "tables";
 
 html{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
+	height:100%;
 }
 
 body{
-
-	background-color: #5e5e5d;
-	background-image: url(../img/bg2.jpg);
-	background-repeat: repeat-x;
-
-	// @include breakpoint($tabet-break){
-	// 	background-size:cover;	
-	// }	
-	@include breakpoint($tablet-break){
-		background-image: url(../img/bg.jpg);
-		background-repeat:no-repeat;
-		background-size:cover;
-	}
+    background: #F1F1F1;
+	font-weight: 300;
+	background-image: url('../img/bg3.JPG');
 }
 
-// TEXT
-
-.title{
-	color: white;
+.box{
+	background: $box-color;
+	margin:0 .5rem;
+	margin-bottom: 1rem;
+	padding:10px;
+	border: 1px solid lighten($gray, 50);
+	margin:0 0 1rem 0;
 }
+
+// TEXT 
+
+.top-bar{
+	color: $top-bar-text-color;
+}
+
+.title a:link,
+.title a:active,
+.title a:visited{
+	@include transition(.25s);
+	color:$top-bar-text-color;
+	text-decoration:none;
+}
+.title a:hover{
+	color:white;
+	@include transition(.5s);
+}
+
+
 
 .welcome p{
 	color:white;
@@ -50,14 +67,3 @@ body{
 	width: 130px;
 	margin:25px auto;
 }
-
-
-// 
-
-.box{
-	padding:10px;
-	margin-bottom: 1rem;
-	background: $box-color;
-	border: 1px solid $box-stroke;
-}
-
