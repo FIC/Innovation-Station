@@ -1,4 +1,5 @@
 # Require any additional compass plugins here.
+require 'singularitygs'
 require 'toolkit'
 require 'compass-normalize'
 

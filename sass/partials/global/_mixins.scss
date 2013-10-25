@@ -15,12 +15,6 @@
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color1', endColorstr='$color2',GradientType=0 ); /* IE6-9 */
 }
 
-
-@mixin hover($color){
-	//@include transition(.25s);
-	background-color:saturate($color, 30);
-}
-
 @mixin transition($sec){
 	-o-transition:$sec;
 	-ms-transition:$sec;
@@ -29,4 +23,6 @@
 	transition:$sec;
 }
 
-
+@mixin hover($color){
+	background-color:saturate($color, 30);
+}

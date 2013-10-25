@@ -1,5 +1,3 @@
-
-
 // BUTTONS
 
 .clickable{
@@ -23,9 +21,6 @@
 	text-transform: uppercase;
 }
 
-
-input.btn{	padding:0; } // submit button fix
-
 .btn.active,{
 	color: white;
 }
@@ -46,21 +41,10 @@ input.btn{	padding:0; } // submit button fix
 .go:hover{
 	@include hover($green);  
 }
+input.btn{	padding:0; } // submit button fix
 
 
-// NAV
-
-.navicon{
-		padding: 7px 7px 5px 7px;
-	background-color: $blue;
-}
-.navicon:hover,
-.navicon:active{
-	@include hover($blue);  
-}
-
-
-// 
+// approve button
 
 .approve{
 	position: relative;
@@ -80,14 +64,48 @@ input.btn{	padding:0; } // submit button fix
 		}
 	}
 }
+.approve:hover{
+	@include hover($green);  
+	.icon-approve{ @include hover(darken($green,10))}
+}
 .icon-approve{
 	@extend %btn-icon;
 	background-color: darken($green,10);
 }
-// cancel
+
+// download button
+
+.download{
+	position: relative;
+	background-color: $blue;
+	width:2rem;
+	
+	.download-text{
+		display:none;
+		margin-left: 25px;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 130px;
+
+	    .download-text{
+			display:inherit;	
+		}
+	}
+}
+.download:hover{
+	@include hover($blue);  
+	.icon-download{ @include hover(darken($blue,10))}
+}
+.icon-download{
+	@extend %btn-icon;
+	background-color: darken($blue,10);
+}
+
+// cancel button
 
 .cancel{
-	
+
 	position: relative;
 	background-color: $red;
 	width:2rem;
@@ -103,7 +121,7 @@ input.btn{	padding:0; } // submit button fix
 
 	@include breakpoint($tablet-break) { 
 	    width: 110px;
-	    // padding-left: 45px;
+
 	    .cancel-text,.remove-text{
 			display:inherit;
 		}
@@ -118,8 +136,17 @@ input.btn{	padding:0; } // submit button fix
 	background-color: darken($red,10);
 }
 
+.remove-this-job{
+	width:0;
+}
 
-//
+@include breakpoint($tablet-break) { 
+	.remove-this-job{
+		width:180px;
+	}
+}
+
+// read more button
 
 .read-more{
 	background-color: $blue;
@@ -128,18 +155,3 @@ input.btn{	padding:0; } // submit button fix
 .read-more:hover{
 	@include hover($blue); 
 }
-
-
-
-// DROP MENU
-
-
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-    		only screen and (-o-min-device-pixel-ratio: 3/2),
-    		only screen and (min--moz-device-pixel-ratio: 1.5),
-    		only screen and (min-device-pixel-ratio: 1.5) {
-   .info-icon{
-		//background-image: url(../../images/spriteSheet2x.png);
-	}
-}
-

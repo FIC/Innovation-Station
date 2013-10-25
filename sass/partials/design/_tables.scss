@@ -50,6 +50,14 @@ table tr td:nth-last-child(2){
 	border-right:none;
 }
 
+table.admin_job_table tr th:first-child,
+table.admin_job_table tr td:first-child{
+	border-right: none;
+}
+table.admin_job_table tr td:nth-last-child(2){
+	border-left: none;
+}
+
 .sort-asc{
 	position: absolute;
 	padding: .45rem 0 .45rem 1rem;
@@ -62,6 +70,10 @@ table.job_table tr th:first-child{
 	width: 45%;
 }
 
+table.admin_job_table .col-action{
+	display:none;
+}
+
 
 table.job_table .col-submitted{display:none}
 
@@ -69,25 +81,25 @@ table.admin_table .col-id{display:none; min-width:50px}
 table.admin_table .col-user{display:none}
 table.admin_table .col-submitted{display:none}
 
+table.admin_job_table .col-download{display:none}
+
 @include breakpoint($tablet-break){	
+	table td {	font-size:.9rem}
 	table.job_table .col-submitted{display:none}
 
 	table.admin_table .col-id{display:table-cell}
 	table.admin_table .col-user{display:table-cell}
-	// table.admin_table .col-submitted{display:table-cell}
+	
+	table.admin_job_table .col-action{display:table-cell;width: 100px}
 }
 @include breakpoint($desktop-break){
 	table td{font-size:.9rem}
 
 	table.job_table .col-submitted{display:table-cell}
 
-
 	table.admin_table .col-id{display:table-cell}
 	table.admin_table .col-submitted{display:table-cell}
 	table.admin_table .col-user{display:table-cell}
 	table.admin_table .col-submitted{display:table-cell}
 }
-
-
-
 

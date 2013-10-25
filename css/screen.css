@@ -1,6 +1,6 @@
-/* normalize.css v2.1.0 | MIT License | git.io/normalize */
-/* normalize.css v2.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
-/* line 20, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+/*! normalize.css v2.1.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 20, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
 article,
 aside,
 details,
@@ -16,86 +16,86 @@ summary {
   display: block;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/* line 28, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
 audio,
 canvas,
 video {
   display: inline-block;
 }
 
-/* line 39, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/* line 39, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
+/* line 46, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_html5.scss */
 [hidden] {
   display: none;
 }
 
-/* normalize.css v2.1.0 | Base | MIT License | git.io/normalize */
-/* line 13, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
+/*! normalize.css v2.1.0 | Base | MIT License | git.io/normalize */
+/* line 13, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 37, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
+/* line 37, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_base.scss */
 body {
   margin: 0;
 }
 
-/* normalize.css v2.1.0 | Links | MIT License | git.io/normalize */
-/* line 9, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_links.scss */
+/*! normalize.css v2.1.0 | Links | MIT License | git.io/normalize */
+/* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_links.scss */
 a:focus {
   outline: thin dotted;
 }
 
-/* line 16, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_links.scss */
+/* line 16, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_links.scss */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* normalize.css v2.1.0 | Typography | MIT License | git.io/normalize */
-/* line 13, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/*! normalize.css v2.1.0 | Typography | MIT License | git.io/normalize */
+/* line 13, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 47, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 47, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 54, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 54, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 66, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 66, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 dfn {
   font-style: italic;
 }
 
-/* line 73, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 73, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 81, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 81, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 100, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 100, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 code,
 kbd,
 pre,
@@ -104,24 +104,24 @@ samp {
   font-size: 1em;
 }
 
-/* line 110, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 110, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
 
-/* line 118, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 118, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
 }
 
-/* line 140, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 140, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 small {
   font-size: 80%;
 }
 
-/* line 147, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 147, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 sub,
 sup {
   font-size: 75%;
@@ -130,49 +130,49 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 154, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 154, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 158, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
+/* line 158, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_typography.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* normalize.css v2.1.0 | Embedded Content | MIT License | git.io/normalize */
-/* line 9, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_embeds.scss */
+/*! normalize.css v2.1.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_embeds.scss */
 img {
   border: 0;
 }
 
-/* line 18, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_embeds.scss */
+/* line 18, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_embeds.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* normalize.css v2.1.0 | Figures | MIT License | git.io/normalize */
-/* line 9, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_figures.scss */
+/*! normalize.css v2.1.0 | Figures | MIT License | git.io/normalize */
+/* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_figures.scss */
 figure {
   margin: 0;
 }
 
-/* normalize.css v2.1.0 | Forms | MIT License | git.io/normalize */
-/* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/*! normalize.css v2.1.0 | Forms | MIT License | git.io/normalize */
+/* line 17, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 30, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 legend {
   border: 0;
   padding: 0;
   white-space: normal;
 }
 
-/* line 49, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 49, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 button,
 input,
 select,
@@ -182,19 +182,19 @@ textarea {
   margin: 0;
 }
 
-/* line 63, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 63, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 button,
 input {
   line-height: normal;
 }
 
-/* line 73, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 73, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 90, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 90, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -203,20 +203,20 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 101, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 101, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 113, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 113, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 126, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 126, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   -moz-box-sizing: content-box;
@@ -224,47 +224,47 @@ input[type="search"] {
   box-sizing: content-box;
 }
 
-/* line 137, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 137, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 144, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 144, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 152, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
+/* line 152, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_forms.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* normalize.css v2.1.0 | Tables | MIT License | git.io/normalize */
-/* line 9, ../../../../../Library/Ruby/Gems/1.8/gems/compass-normalize-1.4.3/stylesheets/normalize/_tables.scss */
+/*! normalize.css v2.1.0 | Tables | MIT License | git.io/normalize */
+/* line 9, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-normalize-1.4.3/stylesheets/normalize/_tables.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 6, ../../../../../Library/Ruby/Gems/1.8/gems/toolkit-1.0.0/stylesheets/toolkit/_border-box.scss */
+/* line 6, ../../../../../Library/Ruby/Gems/2.0.0/gems/toolkit-1.0.0/stylesheets/toolkit/_border-box.scss */
 *, *:after, *:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 4, ../../../../../Library/Ruby/Gems/1.8/gems/toolkit-1.0.0/stylesheets/toolkit/_fluid-media.scss */
+/* line 4, ../../../../../Library/Ruby/Gems/2.0.0/gems/toolkit-1.0.0/stylesheets/toolkit/_fluid-media.scss */
 img, video {
   max-width: 100%;
   height: auto;
 }
 
 /* line 6, ../sass/partials/global/_extendables.scss */
-.icon-approve, .icon-close {
+.icon-approve, .icon-download, .icon-close {
   position: absolute;
   left: 0;
   top: 0;
@@ -290,49 +290,46 @@ h1, h2 {
 
 /* line 16, ../sass/partials/styleguide/_guide.scss */
 h1 {
-  font-size: 2rem;
-  font-weight: 300;
+  margin-left: .5rem;
+  margin-top: 1rem;
+  font-size: 1.2em;
 }
 
-/* line 20, ../sass/partials/styleguide/_guide.scss */
+@media (min-width: 600px) {
+  /* line 22, ../sass/partials/styleguide/_guide.scss */
+  h1 {
+    margin-top: .45rem;
+    margin-left: 0;
+    font-size: 1.7em;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 29, ../sass/partials/styleguide/_guide.scss */
+  h1 {
+    margin-top: .25rem;
+    font-size: 2em;
+  }
+}
+/* line 35, ../sass/partials/styleguide/_guide.scss */
 h2 {
-  font-size: 1.3rem;
+  font-size: .8rem;
   margin-bottom: 1rem;
 }
 
-/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
+@media (min-width: 600px) {
+  /* line 41, ../sass/partials/styleguide/_guide.scss */
+  h2 {
+    font-size: 1.3rem;
+  }
+}
+/* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 section:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* line 3, ../sass/partials/layout/_layout.scss */
-.container {
-  min-height: 100px;
-  max-width: 100%;
-  margin: 0 auto;
-}
-/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
-.container:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (min-width: 600px) {
-  /* line 3, ../sass/partials/layout/_layout.scss */
-  .container {
-    max-width: 95%;
-  }
-}
-@media (min-width: 1024px) {
-  /* line 3, ../sass/partials/layout/_layout.scss */
-  .container {
-    max-width: 984px;
-  }
-}
-
-/* line 25, ../sass/partials/layout/_layout.scss */
+/* line 3, ../sass/partials/layout/header.scss */
 header {
   position: relative;
   float: left;
@@ -340,32 +337,68 @@ header {
   height: 100%;
   margin-top: 0;
 }
-/* line 34, ../sass/partials/layout/_layout.scss */
-header h1 {
-  margin-left: .5rem;
-  margin-top: .65rem;
-  font-size: 1.5em;
-}
-/* line 40, ../sass/partials/layout/_layout.scss */
+/* line 10, ../sass/partials/layout/header.scss */
 header .top-bar {
   min-height: 0;
 }
-/* line 44, ../sass/partials/layout/_layout.scss */
-header .nav {
-  position: relative;
-  display: none;
-  width: 100%;
-  height: 3rem;
-  background-color: #333;
-  clear: both;
+/* line 14, ../sass/partials/layout/header.scss */
+header .title {
+  float: left;
 }
-/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
+/* line 20, ../sass/partials/layout/header.scss */
+header .info-bar .user, header .info-bar .usernav {
+  margin: .5rem 0 0 0;
+  padding: 0;
+  float: right;
+}
+/* line 26, ../sass/partials/layout/header.scss */
+header .info-bar .form-login {
+  float: right;
+}
+/* line 36, ../sass/partials/layout/header.scss */
+header .form-login label {
+  display: none;
+}
+/* line 40, ../sass/partials/layout/header.scss */
+header .form-login .username, header .form-login .password {
+  float: left;
+  width: 145px;
+  height: 2rem;
+  margin-right: 10px;
+  padding: 0 10px;
+  border: 1px solid white;
+  font-weight: 300;
+  background: #e9e9e9;
+}
+/* line 55, ../sass/partials/layout/header.scss */
+header .login {
+  float: right;
+}
+@media (min-width: 300px) {
+  /* line 55, ../sass/partials/layout/header.scss */
+  header .login {
+    display: inherit;
+  }
+}
+@media (min-width: 600px) {
+  /* line 55, ../sass/partials/layout/header.scss */
+  header .login {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 55, ../sass/partials/layout/header.scss */
+  header .login {
+    display: none;
+  }
+}
+/* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 header:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 56, ../sass/partials/layout/_layout.scss */
+/* line 72, ../sass/partials/layout/header.scss */
 header > div:nth-child(1) {
   width: 877.77778%;
   float: left;
@@ -373,20 +406,20 @@ header > div:nth-child(1) {
   margin-left: 0%;
   clear: none;
 }
-/* line 59, ../sass/partials/layout/_layout.scss */
+/* line 75, ../sass/partials/layout/header.scss */
 header > div:nth-child(2) {
   display: none;
 }
 @media (min-width: 300px) {
-  /* line 25, ../sass/partials/layout/_layout.scss */
+  /* line 3, ../sass/partials/layout/header.scss */
   header {
     margin-top: 0;
   }
-  /* line 66, ../sass/partials/layout/_layout.scss */
+  /* line 82, ../sass/partials/layout/header.scss */
   header .login {
     margin: .8rem 1rem;
   }
-  /* line 69, ../sass/partials/layout/_layout.scss */
+  /* line 85, ../sass/partials/layout/header.scss */
   header > div:nth-child(1) {
     width: 100%;
     float: right;
@@ -394,35 +427,25 @@ header > div:nth-child(2) {
     margin-right: 0;
     clear: none;
   }
-  /* line 72, ../sass/partials/layout/_layout.scss */
+  /* line 88, ../sass/partials/layout/header.scss */
   header > div:nth-child(2) {
     display: none;
   }
 }
 @media (min-width: 600px) {
-  /* line 25, ../sass/partials/layout/_layout.scss */
+  /* line 3, ../sass/partials/layout/header.scss */
   header {
     margin-top: 1rem;
   }
-  /* line 80, ../sass/partials/layout/_layout.scss */
-  header h1 {
-    margin-top: .45rem;
-    margin-left: 0;
-    font-size: 1.7em;
-  }
-  /* line 86, ../sass/partials/layout/_layout.scss */
+  /* line 96, ../sass/partials/layout/header.scss */
   header .top-bar {
     min-height: 60px;
   }
-  /* line 90, ../sass/partials/layout/_layout.scss */
+  /* line 100, ../sass/partials/layout/header.scss */
   header .info-bar {
     padding: 10px 0 0 0;
   }
-  /* line 94, ../sass/partials/layout/_layout.scss */
-  header .nav {
-    display: none !important;
-  }
-  /* line 99, ../sass/partials/layout/_layout.scss */
+  /* line 105, ../sass/partials/layout/header.scss */
   header > div:nth-child(1) {
     width: 49.36709%;
     float: left;
@@ -430,7 +453,7 @@ header > div:nth-child(2) {
     margin-left: 0%;
     clear: none;
   }
-  /* line 102, ../sass/partials/layout/_layout.scss */
+  /* line 108, ../sass/partials/layout/header.scss */
   header > div:nth-child(2) {
     width: 49.36709%;
     float: right;
@@ -441,12 +464,7 @@ header > div:nth-child(2) {
   }
 }
 @media (min-width: 1024px) {
-  /* line 111, ../sass/partials/layout/_layout.scss */
-  header h1 {
-    margin-top: .25rem;
-    font-size: 2em;
-  }
-  /* line 116, ../sass/partials/layout/_layout.scss */
+  /* line 118, ../sass/partials/layout/header.scss */
   header > div:nth-child(1) {
     width: 49.36709%;
     float: left;
@@ -454,7 +472,7 @@ header > div:nth-child(2) {
     margin-left: 0%;
     clear: none;
   }
-  /* line 120, ../sass/partials/layout/_layout.scss */
+  /* line 122, ../sass/partials/layout/header.scss */
   header > div:nth-child(2) {
     width: 49.36709%;
     float: right;
@@ -465,89 +483,56 @@ header > div:nth-child(2) {
   }
 }
 
-/* line 128, ../sass/partials/layout/_layout.scss */
-.title {
-  float: left;
+/* line 4, ../sass/partials/layout/footer.scss */
+footer {
+  width: 100%;
 }
 
-/* line 134, ../sass/partials/layout/_layout.scss */
-.info-bar .user, .info-bar .usernav {
-  margin: .5rem 0 0 0;
-  padding: 0;
-  float: right;
+/* line 5, ../sass/partials/layout/_layout.scss */
+.container {
+  min-height: 100px;
+  max-width: 100%;
+  margin: 0 auto;
 }
-/* line 144, ../sass/partials/layout/_layout.scss */
-.info-bar .form-login {
-  float: right;
-}
-
-/* line 150, ../sass/partials/layout/_layout.scss */
-.login {
-  float: right;
-}
-@media (min-width: 300px) {
-  /* line 150, ../sass/partials/layout/_layout.scss */
-  .login {
-    display: inherit;
-  }
+/* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 @media (min-width: 600px) {
-  /* line 150, ../sass/partials/layout/_layout.scss */
-  .login {
-    display: none;
+  /* line 5, ../sass/partials/layout/_layout.scss */
+  .container {
+    max-width: 95%;
   }
 }
 @media (min-width: 1024px) {
-  /* line 150, ../sass/partials/layout/_layout.scss */
-  .login {
-    display: none;
+  /* line 5, ../sass/partials/layout/_layout.scss */
+  .container {
+    max-width: 984px;
   }
 }
 
-/* line 164, ../sass/partials/layout/_layout.scss */
-.navicon {
-  float: right;
-  margin: 10px;
-}
-@media (min-width: 300px) {
-  /* line 164, ../sass/partials/layout/_layout.scss */
-  .navicon {
-    display: inherit;
-  }
-}
-@media (min-width: 600px) {
-  /* line 164, ../sass/partials/layout/_layout.scss */
-  .navicon {
-    display: none;
-  }
-}
-@media (min-width: 1024px) {
-  /* line 164, ../sass/partials/layout/_layout.scss */
-  .navicon {
-    display: none;
-  }
-}
-
-/* line 183, ../sass/partials/layout/_layout.scss */
+/* line 27, ../sass/partials/layout/_layout.scss */
 .welcome {
   clear: both;
   width: 100%;
 }
-/* line 187, ../sass/partials/layout/_layout.scss */
+/* line 31, ../sass/partials/layout/_layout.scss */
 .welcome p {
   margin: 0 1rem;
 }
-/* line 189, ../sass/partials/layout/_layout.scss */
+/* line 33, ../sass/partials/layout/_layout.scss */
 .welcome .hero {
   min-height: 250px;
 }
-/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
+/* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 .welcome:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 195, ../sass/partials/layout/_layout.scss */
+/* line 39, ../sass/partials/layout/_layout.scss */
 .welcome > div:nth-child(1) {
   width: 100%;
   float: right;
@@ -556,7 +541,7 @@ header > div:nth-child(2) {
   clear: none;
   display: none;
 }
-/* line 199, ../sass/partials/layout/_layout.scss */
+/* line 43, ../sass/partials/layout/_layout.scss */
 .welcome > div:nth-child(2) {
   width: 100%;
   float: right;
@@ -565,7 +550,7 @@ header > div:nth-child(2) {
   clear: none;
 }
 @media (min-width: 300px) {
-  /* line 207, ../sass/partials/layout/_layout.scss */
+  /* line 51, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(1) {
     width: 100%;
     float: right;
@@ -574,7 +559,7 @@ header > div:nth-child(2) {
     clear: none;
     display: none;
   }
-  /* line 211, ../sass/partials/layout/_layout.scss */
+  /* line 55, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(2) {
     width: 100%;
     float: right;
@@ -584,7 +569,7 @@ header > div:nth-child(2) {
   }
 }
 @media (min-width: 600px) {
-  /* line 219, ../sass/partials/layout/_layout.scss */
+  /* line 63, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(1) {
     width: 43.03797%;
     float: left;
@@ -593,7 +578,7 @@ header > div:nth-child(2) {
     clear: none;
     display: inherit;
   }
-  /* line 223, ../sass/partials/layout/_layout.scss */
+  /* line 67, ../sass/partials/layout/_layout.scss */
   .welcome > div:nth-child(2) {
     width: 55.6962%;
     float: right;
@@ -603,17 +588,17 @@ header > div:nth-child(2) {
   }
 }
 
-/* line 235, ../sass/partials/layout/_layout.scss */
+/* line 79, ../sass/partials/layout/_layout.scss */
 .misc p {
   font-size: .8rem;
 }
-/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
+/* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 .misc:after {
   content: "";
   display: table;
   clear: both;
 }
-/* line 241, ../sass/partials/layout/_layout.scss */
+/* line 85, ../sass/partials/layout/_layout.scss */
 .misc > div:nth-child(1) {
   width: 100%;
   float: right;
@@ -622,7 +607,7 @@ header > div:nth-child(2) {
   clear: none;
   margin-bottom: 1rem;
 }
-/* line 245, ../sass/partials/layout/_layout.scss */
+/* line 89, ../sass/partials/layout/_layout.scss */
 .misc > div:nth-child(2) {
   width: 100%;
   float: right;
@@ -631,7 +616,7 @@ header > div:nth-child(2) {
   clear: none;
 }
 @media (min-width: 600px) {
-  /* line 252, ../sass/partials/layout/_layout.scss */
+  /* line 96, ../sass/partials/layout/_layout.scss */
   .misc > div:nth-child(1) {
     width: 49.36709%;
     float: left;
@@ -640,7 +625,7 @@ header > div:nth-child(2) {
     clear: none;
     display: inherit;
   }
-  /* line 256, ../sass/partials/layout/_layout.scss */
+  /* line 100, ../sass/partials/layout/_layout.scss */
   .misc > div:nth-child(2) {
     width: 49.36709%;
     float: right;
@@ -650,71 +635,76 @@ header > div:nth-child(2) {
   }
 }
 
-/* line 267, ../sass/partials/layout/_layout.scss */
-.form-login label {
-  display: none;
-}
-/* line 271, ../sass/partials/layout/_layout.scss */
-.form-login .username, .form-login .password {
-  float: left;
-  width: 145px;
-  height: 36px;
-  margin-right: 10px;
-  padding: 0 10px;
-  border: 1px solid white;
-  background: #e9e9e9;
-}
-
-/* line 286, ../sass/partials/layout/_layout.scss */
+/* line 114, ../sass/partials/layout/_layout.scss */
 .main {
   clear: both;
   display: table;
   width: 100%;
 }
-/* line 293, ../sass/partials/layout/_layout.scss */
+/* line 119, ../sass/partials/layout/_layout.scss */
 .main section.info {
   display: table-footer-group;
 }
-/* line 296, ../sass/partials/layout/_layout.scss */
+/* line 122, ../sass/partials/layout/_layout.scss */
 .main section.info > div {
   margin: 0 .5rem;
 }
-/* line 308, ../sass/partials/layout/_layout.scss */
+/* line 131, ../sass/partials/layout/_layout.scss */
 .main section > div {
   margin-bottom: 1rem;
 }
-/* line 312, ../sass/partials/layout/_layout.scss */
-.main .delete {
-  position: absolute;
-  top: -2px;
-  right: -2px;
-}
-/* line 41, ../../../../../Library/Ruby/Gems/1.8/gems/singularitygs-1.0.8/stylesheets/singularitygs/helpers/_clearfix.scss */
+/* line 65, ../../../../../Library/Ruby/Gems/2.0.0/gems/singularitygs-1.1.2/stylesheets/singularitygs/helpers/_clearfix.scss */
 .main:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (min-width: 600px) {
-  /* line 320, ../sass/partials/layout/_layout.scss */
+  /* line 137, ../sass/partials/layout/_layout.scss */
   .main section.info {
-    display: inherit;
+    display: block;
     float: left;
     width: 215px;
   }
-  /* line 326, ../sass/partials/layout/_layout.scss */
+  /* line 142, ../sass/partials/layout/_layout.scss */
   .main section.my-jobs {
     display: block;
     margin-left: 230px;
   }
 }
 
-/* line 349, ../sass/partials/layout/_layout.scss */
-footer {
-  width: 100%;
+/* line 153, ../sass/partials/layout/_layout.scss */
+.admin .admin-job-buttons {
+  margin: 0 auto;
+  margin-top: 1rem;
+  width: 100px;
+}
+/* line 158, ../sass/partials/layout/_layout.scss */
+.admin .admin-job-buttons div {
+  float: left;
+  margin: 0 .5rem;
+}
+@media (min-width: 600px) {
+  /* line 163, ../sass/partials/layout/_layout.scss */
+  .admin .admin-job-buttons {
+    width: 325px;
+  }
+}
+/* line 168, ../sass/partials/layout/_layout.scss */
+.admin .spotlight-toggle {
+  position: inherit;
+  clear: both;
+}
+@media (min-width: 600px) {
+  /* line 173, ../sass/partials/layout/_layout.scss */
+  .admin .spotlight-toggle {
+    position: absolute;
+    top: .5rem;
+    right: 1rem;
+  }
 }
 
-/* line 5, ../sass/partials/design/_uiElements.scss */
+/* line 3, ../sass/partials/design/buttons.scss */
 .clickable {
   cursor: pointer;
   -webkit-touch-callout: none;
@@ -725,7 +715,7 @@ footer {
   user-select: none;
 }
 
-/* line 15, ../sass/partials/design/_uiElements.scss */
+/* line 13, ../sass/partials/design/buttons.scss */
 .btn {
   padding: .45rem 1rem;
   height: 2rem;
@@ -737,130 +727,186 @@ footer {
   text-transform: uppercase;
 }
 
-/* line 27, ../sass/partials/design/_uiElements.scss */
-input.btn {
-  padding: 0;
-}
-
-/* line 29, ../sass/partials/design/_uiElements.scss */
+/* line 24, ../sass/partials/design/buttons.scss */
 .btn.active {
   color: white;
 }
 
-/* line 32, ../sass/partials/design/_uiElements.scss */
+/* line 27, ../sass/partials/design/buttons.scss */
 .btn.disabled {
   color: white;
 }
 
-/* line 36, ../sass/partials/design/_uiElements.scss */
+/* line 31, ../sass/partials/design/buttons.scss */
 .login {
   background-color: #26ae5f;
 }
 
-/* line 40, ../sass/partials/design/_uiElements.scss */
+/* line 35, ../sass/partials/design/buttons.scss */
 .go {
   width: 50px;
   background-color: #26ae5f;
 }
 
-/* line 46, ../sass/partials/design/_uiElements.scss */
+/* line 41, ../sass/partials/design/buttons.scss */
 .login:hover,
 .go:hover {
   background-color: #06ce5a;
 }
 
-/* line 53, ../sass/partials/design/_uiElements.scss */
-.navicon {
-  padding: 7px 7px 5px 7px;
-  background-color: #3d97d3;
+/* line 44, ../sass/partials/design/buttons.scss */
+input.btn {
+  padding: 0;
 }
 
-/* line 58, ../sass/partials/design/_uiElements.scss */
-.navicon:hover,
-.navicon:active {
-  background-color: #199ef7;
-}
-
-/* line 65, ../sass/partials/design/_uiElements.scss */
+/* line 49, ../sass/partials/design/buttons.scss */
 .approve {
   position: relative;
   background-color: #26ae5f;
   width: 2rem;
 }
-/* line 70, ../sass/partials/design/_uiElements.scss */
+/* line 54, ../sass/partials/design/buttons.scss */
 .approve .approve-text {
   display: none;
   margin-left: 25px;
 }
 @media (min-width: 600px) {
-  /* line 65, ../sass/partials/design/_uiElements.scss */
+  /* line 49, ../sass/partials/design/buttons.scss */
   .approve {
     width: 110px;
   }
-  /* line 78, ../sass/partials/design/_uiElements.scss */
+  /* line 62, ../sass/partials/design/buttons.scss */
   .approve .approve-text {
     display: inherit;
   }
 }
 
-/* line 83, ../sass/partials/design/_uiElements.scss */
+/* line 67, ../sass/partials/design/buttons.scss */
+.approve:hover {
+  background-color: #06ce5a;
+}
+/* line 69, ../sass/partials/design/buttons.scss */
+.approve:hover .icon-approve {
+  background-color: #059c44;
+}
+
+/* line 71, ../sass/partials/design/buttons.scss */
 .icon-approve {
   background-color: #1d8448;
 }
 
-/* line 89, ../sass/partials/design/_uiElements.scss */
+/* line 78, ../sass/partials/design/buttons.scss */
+.download {
+  position: relative;
+  background-color: #3d97d3;
+  width: 2rem;
+}
+/* line 83, ../sass/partials/design/buttons.scss */
+.download .download-text {
+  display: none;
+  margin-left: 25px;
+}
+@media (min-width: 600px) {
+  /* line 78, ../sass/partials/design/buttons.scss */
+  .download {
+    width: 130px;
+  }
+  /* line 91, ../sass/partials/design/buttons.scss */
+  .download .download-text {
+    display: inherit;
+  }
+}
+
+/* line 96, ../sass/partials/design/buttons.scss */
+.download:hover {
+  background-color: #199ef7;
+}
+/* line 98, ../sass/partials/design/buttons.scss */
+.download:hover .icon-download {
+  background-color: #0883d5;
+}
+
+/* line 100, ../sass/partials/design/buttons.scss */
+.icon-download {
+  background-color: #297cb4;
+}
+
+/* line 107, ../sass/partials/design/buttons.scss */
 .cancel {
   position: relative;
   background-color: #c0392b;
   width: 2rem;
 }
-/* line 95, ../sass/partials/design/_uiElements.scss */
+/* line 113, ../sass/partials/design/buttons.scss */
 .cancel .cancel-text {
   display: none;
   margin-left: 29px;
 }
-/* line 99, ../sass/partials/design/_uiElements.scss */
+/* line 117, ../sass/partials/design/buttons.scss */
 .cancel .remove-text {
   display: none;
   margin-left: 27px;
 }
 @media (min-width: 600px) {
-  /* line 89, ../sass/partials/design/_uiElements.scss */
+  /* line 107, ../sass/partials/design/buttons.scss */
   .cancel {
     width: 110px;
   }
-  /* line 107, ../sass/partials/design/_uiElements.scss */
+  /* line 125, ../sass/partials/design/buttons.scss */
   .cancel .cancel-text, .cancel .remove-text {
     display: inherit;
   }
 }
 
-/* line 112, ../sass/partials/design/_uiElements.scss */
+/* line 130, ../sass/partials/design/buttons.scss */
 .cancel:hover {
   background-color: #e31c08;
 }
-/* line 114, ../sass/partials/design/_uiElements.scss */
+/* line 132, ../sass/partials/design/buttons.scss */
 .cancel:hover .icon-close {
   background-color: #b21606;
 }
 
-/* line 116, ../sass/partials/design/_uiElements.scss */
+/* line 134, ../sass/partials/design/buttons.scss */
 .icon-close {
   background-color: #962d22;
 }
 
-/* line 124, ../sass/partials/design/_uiElements.scss */
+/* line 139, ../sass/partials/design/buttons.scss */
+.remove-this-job {
+  width: 0;
+}
+
+@media (min-width: 600px) {
+  /* line 144, ../sass/partials/design/buttons.scss */
+  .remove-this-job {
+    width: 180px;
+  }
+}
+/* line 151, ../sass/partials/design/buttons.scss */
 .read-more {
   background-color: #3d97d3;
   text-transform: uppercase;
 }
 
-/* line 128, ../sass/partials/design/_uiElements.scss */
+/* line 155, ../sass/partials/design/buttons.scss */
 .read-more:hover {
   background-color: #199ef7;
 }
 
-/* line 3, ../sass/partials/design/_nav.scss */
+/* line 1, ../sass/partials/design/_nav.scss */
+.navicon {
+  padding: 7px 7px 5px 7px;
+  background-color: #3d97d3;
+}
+
+/* line 6, ../sass/partials/design/_nav.scss */
+.navicon:hover,
+.navicon:active {
+  background-color: #199ef7;
+}
+
+/* line 12, ../sass/partials/design/_nav.scss */
 .user a:link,
 .user a:active,
 .user a:visited {
@@ -868,12 +914,52 @@ input.btn {
   text-decoration: none;
 }
 
-/* line 15, ../sass/partials/design/_nav.scss */
+/* line 20, ../sass/partials/design/_nav.scss */
+.nav {
+  position: relative;
+  display: none;
+  width: 100%;
+  height: 3rem;
+  background-color: #333;
+  clear: both;
+}
+
+/* line 30, ../sass/partials/design/_nav.scss */
+.navicon {
+  float: right;
+  margin: 10px;
+}
+@media (min-width: 300px) {
+  /* line 30, ../sass/partials/design/_nav.scss */
+  .navicon {
+    display: inherit;
+  }
+}
+@media (min-width: 600px) {
+  /* line 30, ../sass/partials/design/_nav.scss */
+  .navicon {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 30, ../sass/partials/design/_nav.scss */
+  .navicon {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  /* line 49, ../sass/partials/design/_nav.scss */
+  .nav {
+    display: none !important;
+  }
+}
+/* line 55, ../sass/partials/design/_nav.scss */
 .usernav ul {
   margin: 0;
 }
 
-/* line 19, ../sass/partials/design/_nav.scss */
+/* line 59, ../sass/partials/design/_nav.scss */
 .usernav ul li {
   display: inline-block;
   color: white;
@@ -881,7 +967,7 @@ input.btn {
   padding: 12px;
 }
 
-/* line 28, ../sass/partials/design/_nav.scss */
+/* line 68, ../sass/partials/design/_nav.scss */
 .usernav ul li a:link,
 .usernav ul li a:active,
 .usernav ul li a:visited {
@@ -953,7 +1039,18 @@ table tr td:nth-last-child(2) {
   border-right: none;
 }
 
-/* line 53, ../sass/partials/design/_tables.scss */
+/* line 54, ../sass/partials/design/_tables.scss */
+table.admin_job_table tr th:first-child,
+table.admin_job_table tr td:first-child {
+  border-right: none;
+}
+
+/* line 57, ../sass/partials/design/_tables.scss */
+table.admin_job_table tr td:nth-last-child(2) {
+  border-left: none;
+}
+
+/* line 61, ../sass/partials/design/_tables.scss */
 .sort-asc {
   position: absolute;
   padding: .45rem 0 .45rem 1rem;
@@ -962,75 +1059,96 @@ table tr td:nth-last-child(2) {
   top: .5rem;
 }
 
-/* line 61, ../sass/partials/design/_tables.scss */
+/* line 69, ../sass/partials/design/_tables.scss */
 table.job_table tr th:first-child {
   width: 45%;
 }
 
-/* line 66, ../sass/partials/design/_tables.scss */
+/* line 73, ../sass/partials/design/_tables.scss */
+table.admin_job_table .col-action {
+  display: none;
+}
+
+/* line 78, ../sass/partials/design/_tables.scss */
 table.job_table .col-submitted {
   display: none;
 }
 
-/* line 68, ../sass/partials/design/_tables.scss */
+/* line 80, ../sass/partials/design/_tables.scss */
 table.admin_table .col-id {
   display: none;
   min-width: 50px;
 }
 
-/* line 69, ../sass/partials/design/_tables.scss */
+/* line 81, ../sass/partials/design/_tables.scss */
 table.admin_table .col-user {
   display: none;
 }
 
-/* line 70, ../sass/partials/design/_tables.scss */
+/* line 82, ../sass/partials/design/_tables.scss */
 table.admin_table .col-submitted {
   display: none;
 }
 
-@media (min-width: 600px) {
-  /* line 73, ../sass/partials/design/_tables.scss */
-  table.job_table .col-submitted {
-    display: none;
-  }
-
-  /* line 75, ../sass/partials/design/_tables.scss */
-  table.admin_table .col-id {
-    display: table-cell;
-  }
-
-  /* line 76, ../sass/partials/design/_tables.scss */
-  table.admin_table .col-user {
-    display: table-cell;
-  }
+/* line 84, ../sass/partials/design/_tables.scss */
+table.admin_job_table .col-download {
+  display: none;
 }
-@media (min-width: 1024px) {
-  /* line 80, ../sass/partials/design/_tables.scss */
+
+@media (min-width: 600px) {
+  /* line 87, ../sass/partials/design/_tables.scss */
   table td {
     font-size: .9rem;
   }
 
-  /* line 82, ../sass/partials/design/_tables.scss */
+  /* line 88, ../sass/partials/design/_tables.scss */
   table.job_table .col-submitted {
-    display: table-cell;
+    display: none;
   }
 
-  /* line 85, ../sass/partials/design/_tables.scss */
+  /* line 90, ../sass/partials/design/_tables.scss */
   table.admin_table .col-id {
     display: table-cell;
   }
 
-  /* line 86, ../sass/partials/design/_tables.scss */
-  table.admin_table .col-submitted {
-    display: table-cell;
-  }
-
-  /* line 87, ../sass/partials/design/_tables.scss */
+  /* line 91, ../sass/partials/design/_tables.scss */
   table.admin_table .col-user {
     display: table-cell;
   }
 
-  /* line 88, ../sass/partials/design/_tables.scss */
+  /* line 93, ../sass/partials/design/_tables.scss */
+  table.admin_job_table .col-action {
+    display: table-cell;
+    width: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  /* line 96, ../sass/partials/design/_tables.scss */
+  table td {
+    font-size: .9rem;
+  }
+
+  /* line 98, ../sass/partials/design/_tables.scss */
+  table.job_table .col-submitted {
+    display: table-cell;
+  }
+
+  /* line 100, ../sass/partials/design/_tables.scss */
+  table.admin_table .col-id {
+    display: table-cell;
+  }
+
+  /* line 101, ../sass/partials/design/_tables.scss */
+  table.admin_table .col-submitted {
+    display: table-cell;
+  }
+
+  /* line 102, ../sass/partials/design/_tables.scss */
+  table.admin_table .col-user {
+    display: table-cell;
+  }
+
+  /* line 103, ../sass/partials/design/_tables.scss */
   table.admin_table .col-submitted {
     display: table-cell;
   }
@@ -1051,6 +1169,7 @@ body {
 
 /* line 18, ../sass/partials/design/_design.scss */
 .box {
+  position: relative;
   background: rgba(255, 255, 255, 0.75);
   margin-bottom: 1rem;
   padding: 10px;
@@ -1118,4 +1237,16 @@ body {
 .read-more {
   width: 130px;
   margin: 25px auto;
+}
+
+/* line 69, ../sass/partials/design/_design.scss */
+.output-text {
+  background: white;
+  padding: .25rem .5rem;
+  font-size: .9rem;
+}
+
+/* line 75, ../sass/partials/design/_design.scss */
+div.output-text {
+  margin-top: -.75rem;
 }

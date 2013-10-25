@@ -1,0 +1,128 @@
+// HEADER
+
+header{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 100%;
+    margin-top: 0;
+
+    .top-bar{
+		min-height:0;
+	}
+
+	.title{
+		float:left;
+	}
+
+	.info-bar{
+
+		.user,.usernav{
+			margin: .5rem 0 0 0;
+			padding:0;
+			float: right;
+		}
+
+		.form-login{
+			float:right;
+		}
+
+	}
+
+	// tablet /desktop login form
+
+	.form-login{
+	
+		label{
+			display: none;
+		}
+
+		.username,.password{
+			float:left;
+			width:145px;
+			height:2rem;
+			margin-right: 10px;
+			padding:0 10px;
+			border: 1px solid white;
+			font-weight: 300;
+			background:#e9e9e9;
+		}
+
+	}
+
+	// Mobile login button
+	
+	.login{
+		float:right;
+
+		@include breakpoint($mobile-break) {  
+			display:inherit;
+		}
+		@include breakpoint($tablet-break) {  
+			display:none;
+		}
+		@include breakpoint($desktop-break) {  
+			display:none;
+		}
+	}
+
+
+	@include clearfix;
+
+	> div:nth-child(1){
+		@include grid-span(16, 1);
+	}
+	> div:nth-child(2){
+		display:none;
+	}
+
+	@include breakpoint($mobile-break) {
+		margin-top: 0;
+
+		.login{	margin: .8rem 1rem;}
+
+		@include layout(16){
+			> div:nth-child(1){
+				@include grid-span(16, 1);
+			}
+			> div:nth-child(2){
+				display:none;
+			}
+		}	
+	}
+	@include breakpoint($tablet-break) { 
+		margin-top: 1rem; 
+
+		.top-bar{
+			min-height:60px;
+		}
+
+	    .info-bar{
+	    	padding:10px 0 0 0;
+	    }
+
+		@include layout(16){
+			> div:nth-child(1){
+				@include grid-span(8, 1);
+			}
+			> div:nth-child(2){
+				@include grid-span(8, 9);
+				display:inherit;
+			}
+		}		
+	}	
+
+	@include breakpoint($desktop-break) { 
+
+		@include layout(16){
+			> div:nth-child(1){
+
+				@include grid-span(8, 1);
+			}
+			> div:nth-child(2){
+				@include grid-span(8, 9);
+				display:inherit;
+			}
+		}	
+	}
+}

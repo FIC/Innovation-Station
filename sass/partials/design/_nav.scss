@@ -1,3 +1,12 @@
+.navicon{
+		padding: 7px 7px 5px 7px;
+	background-color: $blue;
+}
+.navicon:hover,
+.navicon:active{
+	@include hover($blue);  
+}
+
 .user a:link,
 .user a:active,
 .user a:visited{
@@ -9,8 +18,39 @@
 }
 
 .nav{
-	// margin: 0 1rem;
+	position:relative;
+	display:none;
+	width:100%;
+	height: 3rem;
+	background-color:#333;
+	clear:both;
 }
+
+
+.navicon{
+	float:right;
+
+	margin: 10px;
+
+	@include breakpoint($mobile-break) {  
+		display:inherit;
+	}
+	@include breakpoint($tablet-break) {  
+		display:none;
+	}
+	@include breakpoint($desktop-break) {  
+		display:none;
+	}
+}
+
+
+
+@include breakpoint($tablet-break) { 
+    .nav{
+		display:none !important;
+	}
+}
+
 
 .usernav ul {
 	margin:0;
@@ -29,3 +69,4 @@
 	color: $mini-nav-text;
 	text-decoration: none; 
 }
+
