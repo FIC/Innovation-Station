@@ -17,7 +17,7 @@
 
 
 @mixin hover($color){
-	@include transition(.25s);
+	//@include transition(.25s);
 	background-color:saturate($color, 30);
 }
 

@@ -343,7 +343,7 @@ header {
 /* line 34, ../sass/partials/layout/_layout.scss */
 header h1 {
   margin-left: .5rem;
-  margin-top: .5rem;
+  margin-top: .65rem;
   font-size: 1.5em;
 }
 /* line 40, ../sass/partials/layout/_layout.scss */
@@ -679,10 +679,6 @@ header > div:nth-child(2) {
 .main section.info > div {
   margin: 0 .5rem;
 }
-/* line 301, ../sass/partials/layout/_layout.scss */
-.main section.my-jobs {
-  margin-left: .5rem;
-}
 /* line 308, ../sass/partials/layout/_layout.scss */
 .main section > div {
   margin-bottom: 1rem;
@@ -709,7 +705,7 @@ header > div:nth-child(2) {
   /* line 326, ../sass/partials/layout/_layout.scss */
   .main section.my-jobs {
     display: block;
-    margin-left: 225px;
+    margin-left: 230px;
   }
 }
 
@@ -770,11 +766,6 @@ input.btn {
 /* line 46, ../sass/partials/design/_uiElements.scss */
 .login:hover,
 .go:hover {
-  -o-transition: 0.25s;
-  -ms-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
   background-color: #06ce5a;
 }
 
@@ -787,11 +778,6 @@ input.btn {
 /* line 58, ../sass/partials/design/_uiElements.scss */
 .navicon:hover,
 .navicon:active {
-  -o-transition: 0.25s;
-  -ms-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
   background-color: #199ef7;
 }
 
@@ -824,11 +810,6 @@ input.btn {
 
 /* line 89, ../sass/partials/design/_uiElements.scss */
 .cancel {
-  -o-transition: 0.5s;
-  -ms-transition: 0.5s;
-  -moz-transition: 0.5s;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
   position: relative;
   background-color: #c0392b;
   width: 2rem;
@@ -856,20 +837,10 @@ input.btn {
 
 /* line 112, ../sass/partials/design/_uiElements.scss */
 .cancel:hover {
-  -o-transition: 0.25s;
-  -ms-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
   background-color: #e31c08;
 }
 /* line 114, ../sass/partials/design/_uiElements.scss */
 .cancel:hover .icon-close {
-  -o-transition: 0.25s;
-  -ms-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
   background-color: #b21606;
 }
 
@@ -886,11 +857,6 @@ input.btn {
 
 /* line 128, ../sass/partials/design/_uiElements.scss */
 .read-more:hover {
-  -o-transition: 0.25s;
-  -ms-transition: 0.25s;
-  -moz-transition: 0.25s;
-  -webkit-transition: 0.25s;
-  transition: 0.25s;
   background-color: #199ef7;
 }
 
@@ -902,12 +868,12 @@ input.btn {
   text-decoration: none;
 }
 
-/* line 11, ../sass/partials/design/_nav.scss */
+/* line 15, ../sass/partials/design/_nav.scss */
 .usernav ul {
   margin: 0;
 }
 
-/* line 15, ../sass/partials/design/_nav.scss */
+/* line 19, ../sass/partials/design/_nav.scss */
 .usernav ul li {
   display: inline-block;
   color: white;
@@ -915,7 +881,7 @@ input.btn {
   padding: 12px;
 }
 
-/* line 24, ../sass/partials/design/_nav.scss */
+/* line 28, ../sass/partials/design/_nav.scss */
 .usernav ul li a:link,
 .usernav ul li a:active,
 .usernav ul li a:visited {
@@ -1086,7 +1052,6 @@ body {
 /* line 18, ../sass/partials/design/_design.scss */
 .box {
   background: rgba(255, 255, 255, 0.75);
-  margin: 0 .5rem;
   margin-bottom: 1rem;
   padding: 10px;
   border: 1px solid #b3b3b3;
@@ -1121,35 +1086,35 @@ body {
   transition: 0.5s;
 }
 
-/* line 47, ../sass/partials/design/_design.scss */
+/* line 45, ../sass/partials/design/_design.scss */
 .welcome p {
   color: white;
 }
-/* line 50, ../sass/partials/design/_design.scss */
+/* line 48, ../sass/partials/design/_design.scss */
 .welcome p .welcome-text {
   font-size: 1rem;
   font-weight: bold;
 }
 @media (min-width: 300px) {
-  /* line 50, ../sass/partials/design/_design.scss */
+  /* line 48, ../sass/partials/design/_design.scss */
   .welcome p .welcome-text {
     font-size: 1rem;
   }
 }
 @media (min-width: 600px) {
-  /* line 50, ../sass/partials/design/_design.scss */
+  /* line 48, ../sass/partials/design/_design.scss */
   .welcome p .welcome-text {
     font-size: 1.2rem;
   }
 }
 @media (min-width: 1024px) {
-  /* line 50, ../sass/partials/design/_design.scss */
+  /* line 48, ../sass/partials/design/_design.scss */
   .welcome p .welcome-text {
     font-size: 1.5rem;
   }
 }
 
-/* line 66, ../sass/partials/design/_design.scss */
+/* line 64, ../sass/partials/design/_design.scss */
 .read-more {
   width: 130px;
   margin: 25px auto;
