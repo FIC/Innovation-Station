@@ -55,6 +55,17 @@ table tr td:last-child{
 	border-left:none;
 }
 
+// My Files
+
+table.my_files td:last-child{
+	width:120px;
+}
+table.my_files td:nth-last-child(2){
+	border-right:none;
+}
+
+
+
 // My Jobs
 
 table.job_table tr td:nth-last-child(2){

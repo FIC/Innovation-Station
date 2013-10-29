@@ -39,10 +39,26 @@ form.new-job{
 		width:3.5rem;
 	}
 
-	.submit{
+	.back{
+		display: inline-block;
+		width:45%;
+		margin-right: .5rem;
+	
 		border:none;
 		background-color: $blue;
-		width:100%;
+
+		@include breakpoint($tablet-break){	
+			width: 100px;
+		}
+	}
+
+	.submit{
+		display: inline-block;
+		width:45%;
+
+		border:none;
+		background-color: $blue;
+
 		clear:both;
 
 		@include breakpoint($tablet-break){	
@@ -51,8 +67,7 @@ form.new-job{
 	}
 
 	.terms{
-		display: inline-block;
-		float:left;
+		display: block;
 		font-size: .7rem;
 	}
 

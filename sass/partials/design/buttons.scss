@@ -23,6 +23,8 @@
 	-moz-border-radius: $border-radius;
 	border-radius: $border-radius;
 	overflow:hidden;
+	text-decoration:none;
+
 }
 .btn.active,{
 	color: white;
@@ -34,6 +36,7 @@
 .btn-text{
 	padding-left:0;
 	display:none;
+
 }
 @include breakpoint($tablet-break) { 
 	.btn-text{
@@ -85,7 +88,25 @@
 }
 
 
-// cancel button
+// stop button
+
+.stop{
+	background-color: $red;
+
+	//@include breakpoint($tablet-break) { 
+	    width: 100px;
+	//}
+
+	.btn-text{
+		padding-left:1.9rem;
+		display:block;
+	}
+
+	.icon{
+		@extend %btn-icon;
+		background-color: darken($red,10);
+	}
+}
 
 .cancel,.remove{
 	background-color: $red;
@@ -98,6 +119,7 @@
 		background-color: darken($red,10);
 	}
 }
+
 .confirm{
 	background-color: $red;
 
@@ -109,8 +131,8 @@
 		background-color: darken($red,10);
 	}
 }
-.cancel:hover,.confirm:hover, .remove:hover,
-.cancel:active,.confirm:active, remove:active{
+.cancel:hover,.confirm:hover, .remove:hover, .stop:hover,
+.cancel:active,.confirm:active, remove:active, .stop:active{
 	@include hover($red);  
 	.icon{ @include hover(darken($red,10));}
 }
@@ -135,7 +157,7 @@
 .delete-job:hover,
 .delete-job:active{
 	@include hover($red);  
-	.icon-close{ @include hover(darken($red,10));}
+	.icon{ @include hover(darken($red,10));}
 }
 
 

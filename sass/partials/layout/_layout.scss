@@ -178,7 +178,7 @@
 
 	@include breakpoint($tablet-break) {
 		.admin-job-buttons {
-			width:640px;
+			width:100%;
 		}
 		select.batch{
 			display: inline-block;
