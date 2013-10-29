@@ -1,0 +1,1 @@
+$(document).ready(function(e){e("#menu").hide();e(".navicon").click(function(t){t.stopPropagation();t.preventDefault();console.log("click");e("#nav").slideToggle(200);return!1});e(".btn").click(function(t){e("#confirm-delete").show()});e(".confirm-delete, .cancelme").click(function(t){e(this).parent().hide()})});

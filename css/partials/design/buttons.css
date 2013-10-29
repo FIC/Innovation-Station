@@ -1,9 +1,9 @@
 /*
-Syntax error: Undefined variable: "$green".
-        on line 32 of /Users/mmangum/projects/innovationStation/sass/partials/design/buttons.scss
+Syntax error: Undefined variable: "$border-radius".
+        on line 24 of /Users/mmangum/projects/innovationStation/sass/partials/design/buttons.scss
 
 Backtrace:
-/Users/mmangum/projects/innovationStation/sass/partials/design/buttons.scss:32
+/Users/mmangum/projects/innovationStation/sass/partials/design/buttons.scss:24
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/script/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/script/node.rb:40:in `perform'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.2.12/lib/sass/tree/visitors/perform.rb:298:in `visit_prop'
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$green\".\A         on line 32 of /Users/mmangum/projects/innovationStation/sass/partials/design/buttons.scss"; }
+  content: "Syntax error: Undefined variable: \"$border-radius\".\A         on line 24 of /Users/mmangum/projects/innovationStation/sass/partials/design/buttons.scss"; }

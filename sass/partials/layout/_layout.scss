@@ -3,6 +3,7 @@
 @import "footer";
 
 .container {
+	position: relative;
 	min-height: 100px;
   	max-width: 100%;
   	margin: 0 auto;
@@ -116,6 +117,13 @@
 	display: table;  // so we can move around divs
 	width: 100%;
 
+	.add-job{
+		display: none;
+		position: absolute;
+		top: .65rem;
+		right: .65rem;
+	}
+
 	section.info{	
 		display: table-footer-group;
 
@@ -134,6 +142,7 @@
 
 	@include clearfix;	
 	@include breakpoint($tablet-break) { 
+		.add-job{display:block}
 		section.info{
 			display:block;
 			float: left;
@@ -159,9 +168,20 @@
 		float: left;
 		margin: 0 .5rem;
 	}
+
+	select.batch{
+		display: none;
+		position: absolute;
+		right: 1rem;
+		top: 1.25rem;
+	}
+
 	@include breakpoint($tablet-break) {
 		.admin-job-buttons {
-			width:325px;
+			width:700px;
+		}
+		select.batch{
+			display: inline-block;
 		}
 	}
 	

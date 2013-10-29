@@ -11,7 +11,9 @@
 }
 
 .btn{
+	position: relative;
 	padding: .45rem 1rem;
+	padding-left:0;
 	height:2rem;
 	border:none;
 	color:#fff;
@@ -19,14 +21,22 @@
 	font-weight: 300;
 	text-align: center;
 	text-transform: uppercase;
+	-moz-border-radius: $border-radius;
+	border-radius: $border-radius;
+	overflow:hidden;
 }
-
+@include breakpoint($tablet-break) { 
+	.btn{
+		padding-left:42px;
+	}
+}
 .btn.active,{
 	color: white;
 }
 .btn.disabled{
 	color: white;
 }
+
 
 .login{
 	background-color: $green;
@@ -47,13 +57,11 @@ input.btn{	padding:0; } // submit button fix
 // approve button
 
 .approve{
-	position: relative;
 	background-color: $green;
 	width:2rem;
 	
 	.approve-text{
 		display:none;
-		margin-left: 25px;
 	}
 
 	@include breakpoint($tablet-break) { 
@@ -73,16 +81,41 @@ input.btn{	padding:0; } // submit button fix
 	background-color: darken($green,10);
 }
 
+// add job button
+
+.add-job{
+	background-color: $blue;
+	width:2rem;
+	
+	.addjob-text{
+		display:none;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 120px;
+
+	    .addjob-text{
+			display:inherit;	
+		}
+	}
+}
+.add-job:hover{
+	@include hover($blue);  
+	.icon-add-job{ @include hover(darken($blue,10))}
+}
+.icon-add-job{
+	@extend %btn-icon;
+	background-color: darken($blue,10);
+}
+
 // download button
 
 .download{
-	position: relative;
 	background-color: $blue;
 	width:2rem;
 	
 	.download-text{
 		display:none;
-		margin-left: 25px;
 	}
 
 	@include breakpoint($tablet-break) { 
@@ -102,32 +135,21 @@ input.btn{	padding:0; } // submit button fix
 	background-color: darken($blue,10);
 }
 
-// cancel button
+// confirm delete button
 
-.cancel{
-
-	position: relative;
-	background-color: $red;
-	width:2rem;
-
-	.cancel-text{
-		display:none;
-		margin-left: 29px;
-	}
-	.remove-text{
-		display:none;
-		margin-left: 27px;
-	}
-
-	@include breakpoint($tablet-break) { 
-	    width: 110px;
-
-	    .cancel-text,.remove-text{
-			display:inherit;
-		}
-	}
+.dialog{
+	display:none;
 }
-.cancel:hover{
+
+.confirm-delete{
+	background-color: $red;
+	width: 110px;
+
+	.confirm-delete-text{
+	}
+
+}
+.confirm-delete:hover{
 	@include hover($red);  
 	.icon-close{ @include hover(darken($red,10));}
 }
@@ -136,15 +158,124 @@ input.btn{	padding:0; } // submit button fix
 	background-color: darken($red,10);
 }
 
-.remove-this-job{
-	width:0;
-}
 
 @include breakpoint($tablet-break) { 
 	.remove-this-job{
 		width:180px;
 	}
 }
+
+
+// cancel button
+
+.cancel{
+	background-color: $red;
+	width:2rem;
+
+	.cancel-text{
+		display:none;
+	}
+	.remove-text{
+		display:none;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 105px;
+
+	    .cancel-text,.remove-text{
+			display:inherit;
+		}
+
+		.remove{
+			width: 110px;
+		}
+	}
+}
+.cancel:hover,
+.cancel:active{
+	@include hover($red);  
+	.icon-close{ @include hover(darken($red,10));}
+}
+
+
+@include breakpoint($tablet-break) { 
+	.remove{
+		// width: 107px;
+	}
+}
+
+.icon-close{
+	@extend %btn-icon;
+	background-color: darken($red,10);
+}
+
+// delete this job button
+
+.delete-this-job{
+	background-color: $red;
+	width:2rem;
+
+	.delete-this-job-text{
+		display:none;
+	}
+	.remove-text{
+		display:none;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 135px;
+
+	    .delete-this-job-text{
+			display:inherit;
+		}
+	}
+}
+.delete-this-job:hover,
+.delete-this-job:active{
+	@include hover($red);  
+	.icon-close{ @include hover(darken($red,10));}
+}
+.icon-close{
+	@extend %btn-icon;
+	background-color: darken($red,10);
+}
+
+// pause button
+
+.pause{
+
+	position: relative;
+	background-color: $blue;
+	width:2rem;
+
+	.pause-text{
+		display:none;
+	}
+	.pause-text{
+		display:none;
+	}
+
+	@include breakpoint($tablet-break) { 
+	    width: 107px;
+
+	    .pause-text,.pause-text{
+			display:inherit;
+		}
+	}
+}
+.pause:hover,
+.pause:active{
+	@include hover($blue);  
+	.icon-close{ @include hover(darken($blue,10));}
+}
+.icon-pause{
+	@extend %btn-icon;
+	background-color: darken($blue,10);
+}
+
+
+
+
 
 // read more button
 

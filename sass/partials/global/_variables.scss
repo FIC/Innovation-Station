@@ -3,7 +3,7 @@
 ////////////////////////
 
 $mobile-break: 300px;
-$tablet-break: 600px;
+$tablet-break: 650px;
 $desktop-break: 1024px;
 
 $logo-break: 910px;
@@ -18,6 +18,8 @@ $gray: #333333;
 $green: #26ae5f;
 $blue: #3d97d3;
 $red: #c0392b;
+
+$border-radius: .2rem;
 
 $grids: 2;
 //$grids: add-grid(4 at $desktop-break);

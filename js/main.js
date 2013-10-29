@@ -10,10 +10,16 @@ $(document).ready(function($) {
 
     	console.log('click');
 
-        $("#nav").slideToggle("slow");
+        $("#nav").slideToggle(200);
          return false;
+    });
 
 
+    $('.btn').click(function(event) {
+    	 $('#confirm-delete').show();
+    });
 
+    $('.confirm-delete, .cancelme').click(function(event) {
+    	$(this).parent().hide();
     });
 });

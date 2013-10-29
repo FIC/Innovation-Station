@@ -24,6 +24,39 @@ body{
 	margin:0 0 1rem 0;
 }
 
+// CONFIRM DIALOG
+
+.dialog{
+	position:absolute;
+	left:58%;
+	top:50%;
+	margin:-100px 0 0 -150px;
+	width: 250px;
+	// height:300px;
+	padding:0 1rem 1rem 1rem;
+
+	background: rgba($gray, 0.95) ;
+	color: white;
+
+	.cancelme{
+		float:right;
+		display: inline-block;
+		margin-right: 1.2rem;
+		margin-top: .25rem;
+	}
+	.cancelme :link,
+	.cancelme :active,
+	.cancelme :visited{
+		color:white;
+	}
+
+
+	.btn{
+		float:left;
+		margin-left: .5rem
+	}
+}
+
 // TEXT 
 
 .top-bar{
@@ -75,5 +108,7 @@ body{
 div.output-text{
 	margin-top: -.75rem;
 }
+
+
 
 
