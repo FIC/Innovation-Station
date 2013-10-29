@@ -15,11 +15,23 @@ $(document).ready(function($) {
     });
 
 
-    $('.btn').click(function(event) {
+    $('.remove').click(function(event) {
+        $('.modal').show();
     	 $('#confirm-delete').show();
     });
 
-    $('.confirm-delete, .cancelme').click(function(event) {
-    	$(this).parent().hide();
+
+    $('.cancel').click(function(event) {
+        $('.modal').show();
+        $('#confirm-cancel').show();
     });
+
+    $('#confirm, .cancelme').click(function(event) {
+    	$(this).parent().hide();
+        $(this).parent().parent().hide();
+    });
+
+
+
+
 });

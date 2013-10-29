@@ -117,7 +117,7 @@
 	display: table;  // so we can move around divs
 	width: 100%;
 
-	.add-job{
+	.add-job-holder{
 		display: none;
 		position: absolute;
 		top: .65rem;
@@ -142,7 +142,7 @@
 
 	@include clearfix;	
 	@include breakpoint($tablet-break) { 
-		.add-job{display:block}
+		.add-job-holder{display:block}
 		section.info{
 			display:block;
 			float: left;
@@ -178,7 +178,7 @@
 
 	@include breakpoint($tablet-break) {
 		.admin-job-buttons {
-			width:700px;
+			width:640px;
 		}
 		select.batch{
 			display: inline-block;

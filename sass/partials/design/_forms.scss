@@ -1,0 +1,59 @@
+
+
+form.new-job{
+
+	label, input{
+		display: block;
+	}
+
+	label{
+		font-size: .9rem;
+	}
+
+	input,textarea{
+		margin: .25rem 0 1rem 0;
+		border:1px solid lighten($gray,50);
+		padding: .25rem;
+		font-weight: 300;
+
+		width: 100%;
+
+		@include breakpoint($tablet-break){	
+			width: 400px;
+		}
+
+	}
+
+	.upload{
+		border:none;
+	}
+
+	.sms{
+		width: 3rem;
+		float:left;
+		margin-right: .5rem;
+		text-align: center;
+	}
+
+	.num4{
+		width:3.5rem;
+	}
+
+	.submit{
+		border:none;
+		background-color: $blue;
+		width:100%;
+		clear:both;
+
+		@include breakpoint($tablet-break){	
+			width: 100px;
+		}
+	}
+
+	.terms{
+		display: inline-block;
+		float:left;
+		font-size: .7rem;
+	}
+
+}
