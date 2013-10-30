@@ -1,11 +1,13 @@
 // HEADER
 
 header{
+
 	position: relative;
 	float: left;
 	width: 100%;
 	height: 100%;
     margin-top: 0;
+    margin-bottom: .5rem;
 
     .top-bar{
 		min-height:0;
@@ -30,6 +32,7 @@ header{
 	}
 
 	.user-welcome{
+		display:none;
 		margin: 0 .5rem;
 		padding: 4px 8px;
 		color:white;
@@ -37,6 +40,10 @@ header{
 		-moz-border-radius: .25rem;
 		border-radius: .25rem;
 		font-size: .9rem;
+	}
+
+	.user a:last-child{
+		margin-right: 1rem;
 	}
 
 	// tablet /desktop login form
@@ -65,17 +72,12 @@ header{
 	// Mobile login button
 
 	.login{
-		float:right;
+		position: absolute;
+		right: 0;
+	}
 
-		@include breakpoint($mobile-break) {  
-			display:inherit;
-		}
-		@include breakpoint($tablet-break) {  
-			display:none;
-		}
-		@include breakpoint($desktop-break) {  
-			display:none;
-		}
+	.sign-in{
+		display: none;
 	}
 
 
@@ -87,8 +89,6 @@ header{
 	> div:nth-child(2){
 		display:none;
 	}
-
-	@include breakpoint($mobile-break) {
 		margin-top: 0;
 
 		.login{	margin: .8rem 1rem;}
@@ -101,9 +101,10 @@ header{
 				display:none;
 			}
 		}	
-	}
-	@include breakpoint($tablet-break) { 
+
+	@include breakpoint($mobile-break) { 
 		margin-top: 1rem; 
+		 margin-bottom: 0rem;
 
 		.top-bar{
 			min-height:60px;
@@ -111,6 +112,7 @@ header{
 
 	    .info-bar{
 	    	padding:10px 0 0 0;
+
 	    }
 
 		@include layout(16){
@@ -122,13 +124,29 @@ header{
 				display:inherit;
 			}
 		}		
+	}
+
+	@include breakpoint($tablet-break) { 
+		.user-welcome{
+			display: inline-block;
+		}
+	    .info-bar{
+	    	font-size: 1rem;
+	    }
+	    .login{
+			display: none;
+		}
+		.sign-in{
+			display: inherit;
+		}
+		.user a:last-child{
+			margin-right: 0;
+		}
 	}	
 
 	@include breakpoint($desktop-break) { 
-
 		@include layout(16){
 			> div:nth-child(1){
-
 				@include grid-span(8, 1);
 			}
 			> div:nth-child(2){

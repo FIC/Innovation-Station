@@ -26,14 +26,14 @@
 	clear:both;
 }
 
-
 .navicon{
-	float:right;
-
+	position: absolute;
+	right: 0;
+	line-height: 1.2rem;
 	margin: 10px;
 
 	@include breakpoint($mobile-break) {  
-		display:inherit;
+		display:none;
 	}
 	@include breakpoint($tablet-break) {  
 		display:none;

@@ -26,12 +26,12 @@
             <header>  
                 <div class="top-bar">
                     <h1 class="title">The Innovation Station</h1>
-                    <div class="clickable btn login">Sign In</div>
                 </div>
 
                 <div class="top-bar info-bar">
-                   <!--  <div class="user">{user name}</div> -->
-                    <div class="sign-in">
+
+                    <!-- NOT LOGGED IN -->   
+                   <!--  <div class="sign-in">
                         <form action="" class="form-login">
                             <label for="username">Username</label>
                             <input type="text" 
@@ -49,14 +49,33 @@
                                    class="clickable btn go"
                                     >
                         </form>
-                    </div>
+                    </div> -->
 
-                     <!-- If logged in -->
-                    <!-- div>Matt Mangum</div> 
-                    <a href="#">My Jobs</a> 
-                    <a href="#">Logout</a> -->
+                    <!-- LOGGED IN -->                    
+                    <div class="user">
+                        <span class="user-welcome">Welcome, Matt Mangum</span>  <a href="#">My Jobs</a> | <a href="#">Logout</a>
+                    </div>   
 
                 </div>
+
+                <!-- NOT LOGGED IN -->
+                <!--  <div class="clickable btn login">Sign In</div> -->
+
+                <!-- LOGGED IN -->
+                     <div class="clickable btn navicon">
+                        <img src="img/navicon.svg" alt="menu">
+                    </div>
+        
+ 
+                 <nav id="nav" class="nav">
+                    <div class="usernav">
+                        <ul>
+                            <li><a href="#">My Jobs</a> </li>
+                            <li> <a href="#">Logout</a></li>
+                        </ul>
+                       
+                    </div>
+                 </nav>
 
             </header>
 

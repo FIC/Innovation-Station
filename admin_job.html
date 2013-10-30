@@ -24,28 +24,60 @@
 
             <!-- HEADER & NAV -->
 
-            <header>  
+             <header>  
                 <div class="top-bar">
                     <h1 class="title">The Innovation Station</h1>
-                    <div class="clickable btn navicon"><img src="img/navicon.svg" alt="menu"></div>
-                    
                 </div>
 
                 <div class="top-bar info-bar">
+
+                    <!-- NOT LOGGED IN -->   
+                   <!--  <div class="sign-in">
+                        <form action="" class="form-login">
+                            <label for="username">Username</label>
+                            <input type="text" 
+                                   autocorrect="off" 
+                                   autocapitalize="off"
+                                   tabIndex="1"
+                                   class="username"
+                                   placeholder="Username">
+                            <label for="password">Password</label>
+                            <input type="password" 
+                                   class="password"
+                                   placeholder="Password">
+                            <input type="submit" 
+                                   value="GO" 
+                                   class="clickable btn go"
+                                    >
+                        </form>
+                    </div> -->
+
+                    <!-- LOGGED IN -->                    
                     <div class="user">
-                        Admin | <a href="#">Logout</a>
+                        <span class="user-welcome">Welcome, Administrator</span>   <a href="#">Logout</a>
                     </div>   
+
                 </div>
+
+                <!-- NOT LOGGED IN -->
+                <!--  <div class="clickable btn login">Sign In</div> -->
+
+                <!-- LOGGED IN -->
+                     <div class="clickable btn navicon">
+                        <img src="img/navicon.svg" alt="menu">
+                    </div>
+        
  
                  <nav id="nav" class="nav">
                     <div class="usernav">
                         <ul>
-                            <li><a href="#">Home</a> </li>
+                            <li><a href="#">My Jobs</a> </li>
                             <li> <a href="#">Logout</a></li>
                         </ul>
                        
                     </div>
                  </nav>
+
             </header>
          
 
@@ -116,10 +148,6 @@
 
 
                              <div class="clickable btn delete-job"><span class="icon"><img src="img/trash.svg"></span> <span class="btn-text">Delete job</span></div>
-
-                          
-
-
                             
                         </div>
                        

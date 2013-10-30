@@ -12,7 +12,7 @@
 
 .btn{
 	position: relative;
-	padding: .45rem 0;
+	padding: .54rem 0;
 	height:2rem;
 	border:none;
 	color:#fff;
@@ -24,7 +24,7 @@
 	border-radius: $border-radius;
 	overflow:hidden;
 	text-decoration:none;
-
+	line-height: 1rem;
 }
 .btn.active,{
 	color: white;
@@ -187,14 +187,9 @@
 
 
 
-
-
-
-
-
-
 .login{
 	background-color: $green;
+	width:100px;
 }
 
 .go{

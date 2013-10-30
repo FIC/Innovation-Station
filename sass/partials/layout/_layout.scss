@@ -29,6 +29,7 @@
 	clear:both;
 	width: 100%;
 
+
 	p{	margin: 0 1rem;}
 
 	.hero{
@@ -43,6 +44,7 @@
 		}
 		> div:nth-child(2){
 			@include grid-span(16, 1);
+				margin-top: 1rem;
 
 		}
 	}	
