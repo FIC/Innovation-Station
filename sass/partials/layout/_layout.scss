@@ -130,8 +130,12 @@
 		display: table-footer-group;
 
 		> div {
-			margin: 0 .5rem;
+			// margin: 0 .5rem;
 		}
+
+		.cam{
+			height:150px;
+		};
 	}
 
 	section.my-jobs{
@@ -148,11 +152,11 @@
 		section.info{
 			display:block;
 			float: left;
-			width: 215px;
+			width: 235px;
 		}
 		section.my-jobs{
 			display:block;			
-			margin-left: 230px;
+			margin-left: 250px;
 		}
 	}
 }

@@ -38,7 +38,7 @@
 	display:none;
 
 }
-@include breakpoint($tablet-break) { 
+@include breakpoint($mobile-break) { 
 	.btn-text{
 		padding-left:1.9rem;
 		display:block;
@@ -111,7 +111,7 @@
 .cancel,.remove{
 	background-color: $red;
 
-	@include breakpoint($tablet-break) { 
+	@include breakpoint($mobile-break) { 
 	    width: 105px;
 	}
 	.icon{
@@ -205,8 +205,6 @@ input.btn{	padding:0; } // submit button fix
 
 
 
-
-
 // download button
 
 .download{
@@ -237,13 +235,6 @@ input.btn{	padding:0; } // submit button fix
 		width:180px;
 	}
 }
-
-
-
-
-
-
-
 
 
 // read more button

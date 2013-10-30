@@ -695,11 +695,11 @@ footer {
 .main section.info {
   display: table-footer-group;
 }
-/* line 132, ../sass/partials/layout/_layout.scss */
-.main section.info > div {
-  margin: 0 .5rem;
+/* line 136, ../sass/partials/layout/_layout.scss */
+.main section.info .cam {
+  height: 150px;
 }
-/* line 141, ../sass/partials/layout/_layout.scss */
+/* line 145, ../sass/partials/layout/_layout.scss */
 .main section > div {
   margin-bottom: 1rem;
 }
@@ -710,35 +710,35 @@ footer {
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 147, ../sass/partials/layout/_layout.scss */
+  /* line 151, ../sass/partials/layout/_layout.scss */
   .main .add-job-holder {
     display: block;
   }
-  /* line 148, ../sass/partials/layout/_layout.scss */
+  /* line 152, ../sass/partials/layout/_layout.scss */
   .main section.info {
     display: block;
     float: left;
-    width: 215px;
+    width: 235px;
   }
-  /* line 153, ../sass/partials/layout/_layout.scss */
+  /* line 157, ../sass/partials/layout/_layout.scss */
   .main section.my-jobs {
     display: block;
-    margin-left: 230px;
+    margin-left: 250px;
   }
 }
 
-/* line 164, ../sass/partials/layout/_layout.scss */
+/* line 168, ../sass/partials/layout/_layout.scss */
 .admin .admin-job-buttons {
   margin: 0 auto;
   margin-top: 1rem;
   width: 100px;
 }
-/* line 169, ../sass/partials/layout/_layout.scss */
+/* line 173, ../sass/partials/layout/_layout.scss */
 .admin .admin-job-buttons div {
   float: left;
   margin: 0 .5rem;
 }
-/* line 174, ../sass/partials/layout/_layout.scss */
+/* line 178, ../sass/partials/layout/_layout.scss */
 .admin select.batch {
   display: none;
   position: absolute;
@@ -746,22 +746,22 @@ footer {
   top: 1.25rem;
 }
 @media (min-width: 768px) {
-  /* line 182, ../sass/partials/layout/_layout.scss */
+  /* line 186, ../sass/partials/layout/_layout.scss */
   .admin .admin-job-buttons {
     width: 100%;
   }
-  /* line 185, ../sass/partials/layout/_layout.scss */
+  /* line 189, ../sass/partials/layout/_layout.scss */
   .admin select.batch {
     display: inline-block;
   }
 }
-/* line 190, ../sass/partials/layout/_layout.scss */
+/* line 194, ../sass/partials/layout/_layout.scss */
 .admin .spotlight-toggle {
   position: inherit;
   clear: both;
 }
 @media (min-width: 768px) {
-  /* line 195, ../sass/partials/layout/_layout.scss */
+  /* line 199, ../sass/partials/layout/_layout.scss */
   .admin .spotlight-toggle {
     position: absolute;
     top: .5rem;
@@ -814,7 +814,7 @@ footer {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   /* line 42, ../sass/partials/design/buttons.scss */
   .btn-text {
     padding-left: 1.9rem;
@@ -888,7 +888,7 @@ footer {
 .cancel, .remove {
   background-color: #c0392b;
 }
-@media (min-width: 768px) {
+@media (min-width: 450px) {
   /* line 111, ../sass/partials/design/buttons.scss */
   .cancel, .remove {
     width: 105px;
@@ -1000,43 +1000,43 @@ input.btn {
   padding: 0;
 }
 
-/* line 212, ../sass/partials/design/buttons.scss */
+/* line 210, ../sass/partials/design/buttons.scss */
 .download {
   background-color: #3d97d3;
 }
 @media (min-width: 768px) {
-  /* line 212, ../sass/partials/design/buttons.scss */
+  /* line 210, ../sass/partials/design/buttons.scss */
   .download {
     width: 130px;
   }
 }
-/* line 219, ../sass/partials/design/buttons.scss */
+/* line 217, ../sass/partials/design/buttons.scss */
 .download .icon {
   background-color: #297cb4;
 }
 
-/* line 224, ../sass/partials/design/buttons.scss */
+/* line 222, ../sass/partials/design/buttons.scss */
 .download:hover {
   background-color: #199ef7;
 }
-/* line 226, ../sass/partials/design/buttons.scss */
+/* line 224, ../sass/partials/design/buttons.scss */
 .download:hover .icon-download {
   background-color: #0883d5;
 }
 
 @media (min-width: 768px) {
-  /* line 236, ../sass/partials/design/buttons.scss */
+  /* line 234, ../sass/partials/design/buttons.scss */
   .remove-this-job {
     width: 180px;
   }
 }
-/* line 251, ../sass/partials/design/buttons.scss */
+/* line 242, ../sass/partials/design/buttons.scss */
 .read-more {
   background-color: #3d97d3;
   text-transform: uppercase;
 }
 
-/* line 255, ../sass/partials/design/buttons.scss */
+/* line 246, ../sass/partials/design/buttons.scss */
 .read-more:hover {
   background-color: #199ef7;
 }
