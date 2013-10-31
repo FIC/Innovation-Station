@@ -4,3 +4,14 @@
 footer {
 	width: 100%;
 }
+
+
+
+footer.box {
+
+	margin-top: 1rem;
+	@include breakpoint($mobile-break){
+		margin-top: 0;
+	}
+	
+}

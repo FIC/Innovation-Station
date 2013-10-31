@@ -29,8 +29,8 @@
 .navicon{
 	position: absolute;
 	right: 0;
-	line-height: 1.2rem;
-	margin: 10px;
+	line-height: 1.3rem;
+	margin: .5rem;
 
 	@include breakpoint($mobile-break) {  
 		display:none;
@@ -45,7 +45,7 @@
 
 
 
-@include breakpoint($tablet-break) { 
+@include breakpoint($mobile-break) { 
     .nav{
 		display:none !important;
 	}

@@ -95,7 +95,14 @@
                     <div>
                         <h2>New Print Job</h2>
 
-                        <form action="" class="new-job">
+                        <a href="#">
+                            <div class="help">
+                                <div class="clickable btn btn-info"></div>
+                                Help
+                            </div>
+                        </a>
+
+                        <form action="new_print_job_confirm.html" class="new-job">
                             <label for="part-name">Part Name: *</label>
                             <input type="text" placeholder="My Part" name="part-name">
 
@@ -111,15 +118,20 @@
                              <label for="upload">Upload GCode File: *</label>
                             <input type="file" name="upload" class="upload">
 
-                            <label for="sms">Mobile # (for SMS updates):</label>
-                            <input type="text" name="sms" class="sms" placeholder="555">
-                            <input type="text" name="sms" class="sms" placeholder="555">
-                            <input type="text" name="sms" class="sms num4" placeholder="5555">
+                               <label for="sms">Mobile # (for SMS updates):</label>
+                            <div class="tel-holder">
+                               <input type="text" name="sms" class="sms" placeholder="555">
+                               <input type="text" name="sms" class="sms" placeholder="555">
+                               <input type="text" name="sms" class="sms num4" placeholder="5555">
+                            </div>
 
-                            <input type="submit" value="submit" class="clickable btn submit">
-                            <p></p>
-                            
-                            <span class="terms">By clicking Submit, you accept the use policy.</span>
+                    
+                            <div class="form-actions">
+                                <a href="" class="secondary-action">Reset form</a>
+                                <input type="submit" value="next" class="clickable btn next">
+                                <span class="terms">By clicking Submit, you accept the use policy.</span>
+                            </div>
+                             
 
                         </form>
                     </div>  

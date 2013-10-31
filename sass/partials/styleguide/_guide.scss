@@ -64,3 +64,9 @@ a:active{
 a:hover{
 	color: darken($text-color, 100);
 }
+
+hr {
+  border-top: 1px dotted lighten($gray,20);
+  height: 1px;
+
+}

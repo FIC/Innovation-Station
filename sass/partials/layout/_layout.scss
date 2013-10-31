@@ -30,7 +30,7 @@
 	width: 100%;
 
 
-	p{	margin: 0 1rem;}
+	p{margin: 0 1rem;}
 
 	.hero{
 		min-height: 250px;
@@ -135,6 +135,14 @@
 
 		.cam{
 			height:150px;
+			margin: .7rem;
+			@include breakpoint($mobile-break) { 
+				width: 40%;
+			}
+			@include breakpoint($tablet-break) { 
+				margin: 0;
+				width: 100%;
+			}
 		};
 	}
 
