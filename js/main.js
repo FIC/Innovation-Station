@@ -30,13 +30,25 @@ $(document).ready(function($) {
     });
 
 
-
     $('#sign-in').click(function(event) {
         event.stopPropagation();
         event.preventDefault();
 
         $('.modal').show();
         $('#sign-in-dialog').show();
+    });
+
+    $('#login-close').click(function(event) {
+        $(this).parent().parent().hide();
+        $(this).parent().hide();
+    });
+
+    $('#print-help').click(function(event) {
+        $('#wizard').fadeIn(250);
+    });
+
+    $('#wizard-close').click(function(event) {
+        $(this).parent().hide();
     });
 
 

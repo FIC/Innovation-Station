@@ -25,6 +25,9 @@
 	overflow:hidden;
 	text-decoration:none;
 	line-height: 1rem;
+
+
+
 }
 .btn.active,{
 	color: white;
@@ -45,23 +48,52 @@
 	}
 }
 
+// close
 
+.close{
+	position: absolute;
+	top:.0;
+	right:.5rem;
+	height:3rem;
+}
 // submit
 
-.submit{
+
+.submit, .next{
 	display: inline-block;
 	width:100%;
 
 	border:none;
 	background-color: $blue;
 
+	font-size: 1.2rem;
+	height: 3rem;
+	padding: 1rem;
+	margin: .5rem auto;
+
+
 	clear:both;
 
-	@include breakpoint($tablet-break){	
+	@include breakpoint($mobile-break){	
 		width: 120px;
+		padding:inherit;
+		// margin:25px auto;
+		padding: .54rem 0;
+		height: 2rem;
+		font-size: .9rem; 
 	}
 }
 
+	
+
+// @include breakpoint($mobile-break) { 
+// 	padding:inherit;
+// 	width: 130px;
+// 	margin:25px auto;
+// 	padding: .54rem 0;
+// 	height: 2rem;
+// 	font-size: .9rem; 
+// }
 
 
 // add job button
@@ -198,7 +230,7 @@
 .pause:hover,
 .pause:active{
 	@include hover($blue);  
-	.icon{ @include hover(darken($blue,10));}
+	.icon{ @include hover(darken($blue,10));} 
 }
 
 
@@ -212,12 +244,20 @@
 }
 
 .sign-in-short{
-	position: absolute;
-	top:.5rem;
-	right:.5rem;
+	position: relative;
+	margin:0 auto;
+	// top:.5rem;
+	// right:.5rem;
+	margin-top:.5rem;
 	background-color: $green;
 	width:100px;
 	display:block;
+
+	font-size: 1.2rem;
+	height: 3rem;
+	padding: 1rem;
+	width: 170px;
+
 	@include breakpoint($tablet-break) { 
 	    display: none ;
 	}
@@ -270,6 +310,26 @@ input.btn{	padding:0; } // submit button fix
 .read-more{
 	background-color: $blue;
 	text-transform: uppercase;
+
+	font-size: 1.2rem;
+	height: 3rem;
+	padding: 1rem;
+	width: 170px;
+	margin: 1rem auto;
+
+	@include breakpoint($tablet-break) { 
+		padding:inherit;
+		width: 130px;
+		margin:25px auto;
+		padding: .54rem 0;
+		height: 2rem;
+		font-size: .9rem; 
+	}
+
+}
+
+.read-more{
+
 }
 .read-more:hover{
 	@include hover($blue); 

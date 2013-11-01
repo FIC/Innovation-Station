@@ -2,7 +2,7 @@
 @import "buttons";
 @import "nav";
 @import "tables";
-@import "forms";
+@import "forms";  
 
 html{ 
 	font-family: 'Open Sans', sans-serif;
@@ -80,7 +80,7 @@ body{
 	}
 }
 
-// CONFIRM DIALOG
+// DIALOGS / OVERLAYS
 
 .modal{
 	position: absolute;
@@ -126,8 +126,8 @@ body{
 .sign-in-dialog{
 	display:none;
 	position:relative;
-	min-height:300px;
-	margin: 4rem .5rem .5rem .5rem;
+	height:97%;
+	margin: .5rem;
 	// height:300px;
 	padding:0 1rem 1rem 1rem;
 
@@ -136,7 +136,29 @@ body{
 	label{
 		display: none;
 	}
+
+
 }
+
+.wizard{
+	position: absolute;
+	top: 3rem;
+	width: 100;
+	margin: 0 .6rem 0 0;
+	min-height:90%;
+	z-index: 999;
+	background:rgba(white,.9);
+	display:none;
+
+	p{
+		font-size: .9rem;
+	}
+
+	.close{
+		width:1rem;
+	}
+}
+
 
 // TEXT 
 
@@ -175,10 +197,7 @@ body{
 	}
 }
 
-.read-more{
-	width: 130px;
-	margin:25px auto;
-}
+
 
 .output-text{
 	background:white;

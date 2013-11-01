@@ -58,8 +58,7 @@
 
                 </div>
 
-                <!-- NOT LOGGED IN -->
-                 <div class="clickable btn sign-in-short" id="sign-in">Sign In</div>
+               
 
                 <!-- LOGGED IN -->
                  <!--     <div class="clickable btn navicon">
@@ -88,6 +87,9 @@
                 </div>
                 <div>
                     <p> <span class="welcome-text">Welcome to the Innovation Station.</span> A placerat vel habitasse scelerisque ac auctor parturient, tristique auctor ac tortor integer, dapibus elementum purus, aenean ridiculus, nascetur ac mauris.</p>
+
+                     <!-- NOT LOGGED IN -->
+                 <div class="clickable btn sign-in-short" id="sign-in">Sign In</div>
                 <div class="clickable btn read-more" id="learn-more">Learn more</div>
 
                 </div>
@@ -118,32 +120,34 @@
         </div>
 
         <div class="modal">
-    <div class="box sign-in-dialog" id="sign-in-dialog"> 
-        <p>Sign In</p>
-         <div class="sign-in">
-                        <form action="" class="form-login">
-                            <label for="username">Username</label>
-                            <input type="text" 
-                                   autocorrect="off" 
-                                   autocapitalize="off"
-                                   tabIndex="1"
-                                   class="username"
-                                   placeholder="Username">
-                            <label for="password">Password</label>
-                            <input type="password" 
-                                   class="password"
-                                   placeholder="Password">
-                            <input type="submit" 
-                                   value="Submit" 
-                                   class="clickable btn submit"
-                                    >
-                        </form>
-                    </div>
-
-    </div>
-
-
-</div>
+            <div class="box sign-in-dialog" id="sign-in-dialog"> 
+                <div class="clickable btn close" id="login-close"><img src="img/x-red.svg" alt="close"></div>
+                <p>Sign In</p>
+                 <div class="sign-in">
+                                <form action="" class="form-login">
+                                    <label for="username">Username</label>
+                                    <input type="text" 
+                                           autocorrect="off" 
+                                           autocapitalize="off"
+                                           tabIndex="1"
+                                           class="username"
+                                           placeholder="Username">
+                                    <label for="password">Password</label>
+                                    <input type="password" 
+                                           class="password"
+                                           placeholder="Password">
+                                    <input type="submit" 
+                                           value="Submit" 
+                                           class="clickable btn submit"
+                                            >
+                                            <input type="submit" 
+                                           value="Cancel" 
+                                           class="clickable btn submit"
+                                            >
+                                </form>
+                            </div>
+            </div>
+        </div>
 
 
         <!--                                -->
