@@ -31,7 +31,7 @@
                 <div class="top-bar info-bar">
 
                     <!-- NOT LOGGED IN -->   
-                   <!--  <div class="sign-in">
+                    <div class="sign-in-long">
                         <form action="" class="form-login">
                             <label for="username">Username</label>
                             <input type="text" 
@@ -49,22 +49,22 @@
                                    class="clickable btn go"
                                     >
                         </form>
-                    </div> -->
+                    </div>
 
                     <!-- LOGGED IN -->                    
-                    <div class="user">
+               <!--      <div class="user">
                         <span class="user-welcome">Welcome, Matt Mangum</span>  <a href="#">My Jobs</a> | <a href="#">Logout</a>
-                    </div>   
+                    </div>   --> 
 
                 </div>
 
                 <!-- NOT LOGGED IN -->
-                <!--  <div class="clickable btn login">Sign In</div> -->
+                 <div class="clickable btn sign-in-short" id="sign-in">Sign In</div>
 
                 <!-- LOGGED IN -->
-                     <div class="clickable btn navicon">
+                 <!--     <div class="clickable btn navicon">
                         <img src="img/navicon.svg" alt="menu">
-                    </div>
+                    </div> -->
         
  
                  <nav id="nav" class="nav">
@@ -116,6 +116,34 @@
 
 
         </div>
+
+        <div class="modal">
+    <div class="box sign-in-dialog" id="sign-in-dialog"> 
+        <p>Sign In</p>
+         <div class="sign-in">
+                        <form action="" class="form-login">
+                            <label for="username">Username</label>
+                            <input type="text" 
+                                   autocorrect="off" 
+                                   autocapitalize="off"
+                                   tabIndex="1"
+                                   class="username"
+                                   placeholder="Username">
+                            <label for="password">Password</label>
+                            <input type="password" 
+                                   class="password"
+                                   placeholder="Password">
+                            <input type="submit" 
+                                   value="Submit" 
+                                   class="clickable btn submit"
+                                    >
+                        </form>
+                    </div>
+
+    </div>
+
+
+</div>
 
 
         <!--                                -->

@@ -8,8 +8,6 @@ $(document).ready(function($) {
     	event.stopPropagation();
     	event.preventDefault()
 
-    	console.log('click');
-
         $("#nav").slideToggle(200);
          return false;
     });
@@ -31,6 +29,15 @@ $(document).ready(function($) {
         $(this).parent().parent().hide();
     });
 
+
+
+    $('#sign-in').click(function(event) {
+        event.stopPropagation();
+        event.preventDefault();
+
+        $('.modal').show();
+        $('#sign-in-dialog').show();
+    });
 
 
 

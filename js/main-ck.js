@@ -1,1 +1,0 @@
-$(document).ready(function(e){e("#menu").hide();e(".navicon").click(function(t){t.stopPropagation();t.preventDefault();console.log("click");e("#nav").slideToggle("slow");return!1})});

@@ -1,6 +1,13 @@
 
 
-form.new-job{
+// GENERL FORM ELEMENTS
+
+form{
+
+	input, text{
+
+		font-weight: 300;
+	}
 
 	label, input{
 		display: block;
@@ -8,6 +15,15 @@ form.new-job{
 
 	label{
 		font-size: .9rem;
+	}
+
+	.upload{
+		border:none;
+	}
+
+	.terms{
+		display: block;
+		font-size: .7rem;
 	}
 
 	input,textarea{
@@ -24,11 +40,47 @@ form.new-job{
 
 	}
 
-	// FORM COMPONENTS
+}
 
-	.upload{
-		border:none;
+
+// SPECIFIC FORMS
+
+// site login
+
+.sign-in-long form.form-login{
+	float:right;
+
+	label{
+		display: none;
 	}
+
+	.username,.password{
+		float:left;
+		width:145px;
+		height:2rem;
+		margin-right: 10px;
+		padding:0 10px;
+		border: 1px solid white;
+		background:#e9e9e9;
+		-moz-border-radius: $border-radius;
+		border-radius: $border-radius;
+	}
+
+}
+
+// Mobile login 
+
+.sign-in-short form.login{
+	position: absolute;
+	right: 0;
+	margin: .5rem 1rem;
+	@include breakpoint($tablet-break) { 
+ 		display: none;
+	}
+}
+
+// rew job form
+form.new-job{
 
 	.sms{
 		width: 3rem;
@@ -41,20 +93,22 @@ form.new-job{
 		width:3.5rem;
 	}
 
-	.terms{
-		display: block;
-		font-size: .7rem;
-	}
-
 	.tel-holder{
 		width: 100%;
 		float: right;
 	}
 
+	.form-actions{
+		clear: both;
+		padding: .5rem;
+		-moz-border-radius: $border-radius;
+		border-radius: $border-radius;
+		background-color:rgba(white,.5);
+	}
 
-	// PRIMARY ACTIONS
+	// Primary Actions
 
-	.next, .submit{
+	.submit{
 		display: inline-block;
 		width:71%;
 
@@ -69,28 +123,15 @@ form.new-job{
 	}
 
 	.submit{
-			display: inline-block;
-			width:65%;
+		display: inline-block;
+		width:65%;
 
-			border:none;
-			background-color: $blue;
-
-			clear:both;
-
-			@include breakpoint($mobile-break){	
-				width: 120px;
-			}
+		@include breakpoint($mobile-break){	
+			width: 120px;
 		}
-
-	.form-actions{
-		clear: both;
-		padding: .5rem 1rem;
-		-moz-border-radius: $border-radius;
-		border-radius: $border-radius;
-		background-color:rgba(white,.5);
 	}
 
-	// SECONDARY ACTIONS
+	// Secondary Actions
 
 	a.secondary-action{
 		margin-right: 1rem;
