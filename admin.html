@@ -9,6 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/screen.css">
         <script src="js/vendor/modernizr.development.js"></script>
@@ -90,13 +91,15 @@
                 <section class="box admin">
                     <div>
                         <h2>Administrator</h2>
-                        <select class="batch">
-                          <option >-- Select Operation --</option>
-                          <option value="delete">Delete</option>
-                          <option value="cancel">Cancel Job</option>
-                          <option value="cancel">Pause Job</option>
-                          <option value="approve">Approve Job</option>
-                        </select>
+                        <div class="batch">
+                            <select c>
+                              <option>-- Select Operation --</option>
+                              <option value="delete">Delete</option>
+                              <option value="cancel">Cancel Job</option>
+                              <option value="cancel">Pause Job</option>
+                              <option value="approve">Approve Job</option>
+                            </select>    
+                        </div>
                         <table class="admin_table" border="0">
                             <tr>
                                 <th class="col-id">ID<div class="clickable btn sort-asc"><img src="img/arrow-down.svg"></div></th>

@@ -356,6 +356,13 @@ hr {
   height: 1px;
 }
 
+/* line 80, ../sass/partials/styleguide/_guide.scss */
+::selection {
+  background: #FE57A1;
+  color: #FFF;
+  text-shadow: none;
+}
+
 /* line 3, ../sass/partials/layout/_header.scss */
 header {
   position: relative;
@@ -809,30 +816,30 @@ footer.box {
   line-height: 1rem;
 }
 
-/* line 32, ../sass/partials/design/_buttons.scss */
+/* line 29, ../sass/partials/design/_buttons.scss */
 .btn.active {
   color: white;
 }
 
-/* line 35, ../sass/partials/design/_buttons.scss */
+/* line 32, ../sass/partials/design/_buttons.scss */
 .btn.disabled {
   color: white;
 }
 
-/* line 39, ../sass/partials/design/_buttons.scss */
+/* line 36, ../sass/partials/design/_buttons.scss */
 .btn-text {
   padding-left: 0;
   display: none;
 }
 
 @media (min-width: 450px) {
-  /* line 45, ../sass/partials/design/_buttons.scss */
+  /* line 41, ../sass/partials/design/_buttons.scss */
   .btn-text {
     padding-left: 1.9rem;
     display: block;
   }
 }
-/* line 53, ../sass/partials/design/_buttons.scss */
+/* line 49, ../sass/partials/design/_buttons.scss */
 .close {
   position: absolute;
   top: .0;
@@ -840,12 +847,14 @@ footer.box {
   height: 3rem;
 }
 
-/* line 62, ../sass/partials/design/_buttons.scss */
+/* line 58, ../sass/partials/design/_buttons.scss */
 .submit, .next {
   display: inline-block;
   width: 100%;
   border: none;
   background-color: #3d97d3;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
   font-size: 1.2rem;
   height: 3rem;
   padding: 1rem;
@@ -853,7 +862,7 @@ footer.box {
   clear: both;
 }
 @media (min-width: 450px) {
-  /* line 62, ../sass/partials/design/_buttons.scss */
+  /* line 58, ../sass/partials/design/_buttons.scss */
   .submit, .next {
     width: 120px;
     padding: inherit;
@@ -863,90 +872,100 @@ footer.box {
   }
 }
 
-/* line 101, ../sass/partials/design/_buttons.scss */
+/* line 98, ../sass/partials/design/_buttons.scss */
 .add-job {
   background-color: #3d97d3;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
 }
 @media (min-width: 768px) {
-  /* line 101, ../sass/partials/design/_buttons.scss */
+  /* line 98, ../sass/partials/design/_buttons.scss */
   .add-job {
     width: 115px;
   }
 }
-/* line 108, ../sass/partials/design/_buttons.scss */
+/* line 106, ../sass/partials/design/_buttons.scss */
 .add-job .icon {
   background-color: #297cb4;
 }
 
-/* line 113, ../sass/partials/design/_buttons.scss */
+/* line 111, ../sass/partials/design/_buttons.scss */
 .add-job:hover {
   background-color: #199ef7;
 }
-/* line 115, ../sass/partials/design/_buttons.scss */
+/* line 113, ../sass/partials/design/_buttons.scss */
 .add-job:hover .icon {
   background-color: #0883d5;
 }
 
-/* line 120, ../sass/partials/design/_buttons.scss */
+/* line 118, ../sass/partials/design/_buttons.scss */
 .approve {
   background-color: #26ae5f;
   width: 115px;
+  border-right: 1px solid #1d8448;
+  border-bottom: 1px solid #1d8448;
 }
-/* line 125, ../sass/partials/design/_buttons.scss */
+/* line 124, ../sass/partials/design/_buttons.scss */
 .approve .btn-text {
   padding-left: 1.9rem;
   display: block;
 }
-/* line 130, ../sass/partials/design/_buttons.scss */
+/* line 129, ../sass/partials/design/_buttons.scss */
 .approve .icon {
   background-color: #1d8448;
 }
 
-/* line 135, ../sass/partials/design/_buttons.scss */
+/* line 134, ../sass/partials/design/_buttons.scss */
 .approve:hover {
   background-color: #06ce5a;
 }
-/* line 137, ../sass/partials/design/_buttons.scss */
+/* line 136, ../sass/partials/design/_buttons.scss */
 .approve:hover .icon {
   background-color: #059c44;
 }
 
-/* line 143, ../sass/partials/design/_buttons.scss */
+/* line 142, ../sass/partials/design/_buttons.scss */
 .stop {
-  background-color: #c0392b;
   width: 100px;
+  background-color: #c0392b;
+  border-right: 1px solid #962d22;
+  border-bottom: 1px solid #962d22;
 }
-/* line 150, ../sass/partials/design/_buttons.scss */
+/* line 148, ../sass/partials/design/_buttons.scss */
 .stop .btn-text {
   padding-left: 1.9rem;
   display: block;
 }
-/* line 155, ../sass/partials/design/_buttons.scss */
+/* line 153, ../sass/partials/design/_buttons.scss */
 .stop .icon {
   background-color: #962d22;
 }
 
-/* line 161, ../sass/partials/design/_buttons.scss */
+/* line 159, ../sass/partials/design/_buttons.scss */
 .cancel, .remove {
   background-color: #c0392b;
+  border-right: 1px solid #962d22;
+  border-bottom: 1px solid #962d22;
 }
 @media (min-width: 450px) {
-  /* line 161, ../sass/partials/design/_buttons.scss */
+  /* line 159, ../sass/partials/design/_buttons.scss */
   .cancel, .remove {
     width: 105px;
   }
 }
-/* line 167, ../sass/partials/design/_buttons.scss */
+/* line 166, ../sass/partials/design/_buttons.scss */
 .cancel .icon, .remove .icon {
   background-color: #962d22;
 }
 
-/* line 173, ../sass/partials/design/_buttons.scss */
+/* line 172, ../sass/partials/design/_buttons.scss */
 .confirm {
   background-color: #c0392b;
+  border-right: 1px solid #962d22;
+  border-bottom: 1px solid #962d22;
 }
 @media (min-width: 768px) {
-  /* line 173, ../sass/partials/design/_buttons.scss */
+  /* line 172, ../sass/partials/design/_buttons.scss */
   .confirm {
     width: 115px;
   }
@@ -969,162 +988,163 @@ footer.box {
 
 /* line 193, ../sass/partials/design/_buttons.scss */
 .delete-job {
-  background-color: #c0392b;
   width: 130px;
+  background-color: #c0392b;
+  border-right: 1px solid #962d22;
+  border-bottom: 1px solid #962d22;
 }
-/* line 197, ../sass/partials/design/_buttons.scss */
+/* line 199, ../sass/partials/design/_buttons.scss */
 .delete-job .btn-text {
   padding-left: 1.9rem;
   display: block;
 }
-/* line 202, ../sass/partials/design/_buttons.scss */
+/* line 204, ../sass/partials/design/_buttons.scss */
 .delete-job .icon {
   background-color: #962d22;
 }
 
-/* line 208, ../sass/partials/design/_buttons.scss */
+/* line 210, ../sass/partials/design/_buttons.scss */
 .delete-job:hover,
 .delete-job:active {
   background-color: #e31c08;
 }
-/* line 210, ../sass/partials/design/_buttons.scss */
+/* line 212, ../sass/partials/design/_buttons.scss */
 .delete-job:hover .icon,
 .delete-job:active .icon {
   background-color: #b21606;
 }
 
-/* line 216, ../sass/partials/design/_buttons.scss */
+/* line 218, ../sass/partials/design/_buttons.scss */
 .pause {
-  background-color: #3d97d3;
   width: 107px;
+  background-color: #3d97d3;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
 }
-/* line 220, ../sass/partials/design/_buttons.scss */
+/* line 224, ../sass/partials/design/_buttons.scss */
 .pause .btn-text {
   padding-left: 1.9rem;
   display: block;
 }
-/* line 225, ../sass/partials/design/_buttons.scss */
+/* line 229, ../sass/partials/design/_buttons.scss */
 .pause .icon {
   background-color: #297cb4;
 }
 
-/* line 231, ../sass/partials/design/_buttons.scss */
+/* line 235, ../sass/partials/design/_buttons.scss */
 .pause:hover,
 .pause:active {
   background-color: #199ef7;
 }
-/* line 233, ../sass/partials/design/_buttons.scss */
+/* line 237, ../sass/partials/design/_buttons.scss */
 .pause:hover .icon,
 .pause:active .icon {
   background-color: #0883d5;
 }
 
-/* line 239, ../sass/partials/design/_buttons.scss */
+/* line 243, ../sass/partials/design/_buttons.scss */
 .sign-in-long {
   display: none;
 }
 @media (min-width: 768px) {
-  /* line 239, ../sass/partials/design/_buttons.scss */
+  /* line 243, ../sass/partials/design/_buttons.scss */
   .sign-in-long {
     display: inherit;
   }
 }
 
-/* line 246, ../sass/partials/design/_buttons.scss */
+/* line 251, ../sass/partials/design/_buttons.scss */
 .sign-in-short {
-  position: relative;
+  display: block;
   margin: 0 auto;
   margin-top: .5rem;
-  background-color: #26ae5f;
   width: 100px;
-  display: block;
-  font-size: 1.2rem;
   height: 3rem;
   padding: 1rem;
   width: 170px;
+  background-color: #26ae5f;
+  border-right: 1px solid #1d8448;
+  border-bottom: 1px solid #1d8448;
+  position: relative;
+  font-size: 1.2rem;
 }
 @media (min-width: 768px) {
-  /* line 246, ../sass/partials/design/_buttons.scss */
+  /* line 251, ../sass/partials/design/_buttons.scss */
   .sign-in-short {
     display: none;
   }
 }
 
-/* line 267, ../sass/partials/design/_buttons.scss */
+/* line 271, ../sass/partials/design/_buttons.scss */
 .go {
   width: 50px;
   background-color: #26ae5f;
+  border-right: 1px solid #1d8448;
+  border-bottom: 1px solid #1d8448;
 }
 
-/* line 273, ../sass/partials/design/_buttons.scss */
+/* line 279, ../sass/partials/design/_buttons.scss */
 .login:hover,
 .go:hover {
   background-color: #06ce5a;
 }
 
-/* line 276, ../sass/partials/design/_buttons.scss */
+/* line 282, ../sass/partials/design/_buttons.scss */
 input.btn {
   padding: 0;
 }
 
-/* line 282, ../sass/partials/design/_buttons.scss */
+/* line 287, ../sass/partials/design/_buttons.scss */
 .download {
   background-color: #3d97d3;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
 }
 @media (min-width: 768px) {
-  /* line 282, ../sass/partials/design/_buttons.scss */
+  /* line 287, ../sass/partials/design/_buttons.scss */
   .download {
     width: 130px;
   }
 }
-/* line 289, ../sass/partials/design/_buttons.scss */
+/* line 295, ../sass/partials/design/_buttons.scss */
 .download .icon {
   background-color: #297cb4;
 }
 
-/* line 294, ../sass/partials/design/_buttons.scss */
+/* line 300, ../sass/partials/design/_buttons.scss */
 .download:hover {
   background-color: #199ef7;
 }
-/* line 296, ../sass/partials/design/_buttons.scss */
+/* line 302, ../sass/partials/design/_buttons.scss */
 .download:hover .icon-download {
   background-color: #0883d5;
 }
 
-@media (min-width: 768px) {
-  /* line 302, ../sass/partials/design/_buttons.scss */
-  .remove-this-job {
-    width: 180px;
-  }
-}
-/* line 310, ../sass/partials/design/_buttons.scss */
+/* line 309, ../sass/partials/design/_buttons.scss */
 .read-more {
-  background-color: #3d97d3;
-  text-transform: uppercase;
-  font-size: 1.2rem;
   height: 3rem;
   padding: 1rem;
   width: 170px;
   margin: 1rem auto;
+  background-color: #3d97d3;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
+  text-transform: uppercase;
+  font-size: 1.2rem;
 }
 @media (min-width: 768px) {
-  /* line 310, ../sass/partials/design/_buttons.scss */
+  /* line 309, ../sass/partials/design/_buttons.scss */
   .read-more {
-    padding: inherit;
-    width: 130px;
-    margin: 25px auto;
-    padding: .54rem 0;
-    height: 2rem;
-    font-size: .9rem;
+    margin-top: 2rem;
   }
 }
 
-/* line 334, ../sass/partials/design/_buttons.scss */
+/* line 325, ../sass/partials/design/_buttons.scss */
 .read-more:hover {
   background-color: #199ef7;
 }
 
-/* line 338, ../sass/partials/design/_buttons.scss */
+/* line 329, ../sass/partials/design/_buttons.scss */
 .help {
   position: absolute;
   top: 1rem;
@@ -1133,7 +1153,7 @@ input.btn {
   font-size: .9rem;
 }
 
-/* line 345, ../sass/partials/design/_buttons.scss */
+/* line 336, ../sass/partials/design/_buttons.scss */
 .btn-info {
   float: left;
   width: 20px;
@@ -1147,15 +1167,17 @@ input.btn {
 .navicon {
   padding: 7px 7px 5px 7px;
   background-color: #3d97d3;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
 }
 
-/* line 6, ../sass/partials/design/_nav.scss */
+/* line 8, ../sass/partials/design/_nav.scss */
 .navicon:hover,
 .navicon:active {
   background-color: #199ef7;
 }
 
-/* line 12, ../sass/partials/design/_nav.scss */
+/* line 14, ../sass/partials/design/_nav.scss */
 .user a:link,
 .user a:active,
 .user a:visited {
@@ -1163,7 +1185,7 @@ input.btn {
   text-decoration: none;
 }
 
-/* line 20, ../sass/partials/design/_nav.scss */
+/* line 22, ../sass/partials/design/_nav.scss */
 .nav {
   position: relative;
   display: none;
@@ -1173,7 +1195,7 @@ input.btn {
   clear: both;
 }
 
-/* line 29, ../sass/partials/design/_nav.scss */
+/* line 31, ../sass/partials/design/_nav.scss */
 .navicon {
   position: absolute;
   right: 0;
@@ -1181,36 +1203,36 @@ input.btn {
   margin: .5rem;
 }
 @media (min-width: 450px) {
-  /* line 29, ../sass/partials/design/_nav.scss */
+  /* line 31, ../sass/partials/design/_nav.scss */
   .navicon {
     display: none;
   }
 }
 @media (min-width: 768px) {
-  /* line 29, ../sass/partials/design/_nav.scss */
+  /* line 31, ../sass/partials/design/_nav.scss */
   .navicon {
     display: none;
   }
 }
 @media (min-width: 1024px) {
-  /* line 29, ../sass/partials/design/_nav.scss */
+  /* line 31, ../sass/partials/design/_nav.scss */
   .navicon {
     display: none;
   }
 }
 
 @media (min-width: 450px) {
-  /* line 49, ../sass/partials/design/_nav.scss */
+  /* line 51, ../sass/partials/design/_nav.scss */
   .nav {
     display: none !important;
   }
 }
-/* line 55, ../sass/partials/design/_nav.scss */
+/* line 57, ../sass/partials/design/_nav.scss */
 .usernav ul {
   margin: 0;
 }
 
-/* line 59, ../sass/partials/design/_nav.scss */
+/* line 61, ../sass/partials/design/_nav.scss */
 .usernav ul li {
   display: inline-block;
   color: white;
@@ -1218,7 +1240,7 @@ input.btn {
   padding: 12px;
 }
 
-/* line 68, ../sass/partials/design/_nav.scss */
+/* line 70, ../sass/partials/design/_nav.scss */
 .usernav ul li a:link,
 .usernav ul li a:active,
 .usernav ul li a:visited {
@@ -1470,15 +1492,15 @@ form input, form textarea {
   }
 }
 
-/* line 53, ../sass/partials/design/_forms.scss */
+/* line 52, ../sass/partials/design/_forms.scss */
 .sign-in-long form.form-login {
   float: right;
 }
-/* line 56, ../sass/partials/design/_forms.scss */
+/* line 55, ../sass/partials/design/_forms.scss */
 .sign-in-long form.form-login label {
   display: none;
 }
-/* line 60, ../sass/partials/design/_forms.scss */
+/* line 59, ../sass/partials/design/_forms.scss */
 .sign-in-long form.form-login .username, .sign-in-long form.form-login .password {
   float: left;
   width: 145px;
@@ -1491,41 +1513,36 @@ form input, form textarea {
   border-radius: 0.2rem;
 }
 
-/* line 74, ../sass/partials/design/_forms.scss */
-form.form-login {
-  width: 360px;
-}
-
-/* line 80, ../sass/partials/design/_forms.scss */
+/* line 79, ../sass/partials/design/_forms.scss */
 .sign-in-short form.login {
   position: absolute;
   right: 0;
   margin: .5rem 1rem;
 }
 @media (min-width: 768px) {
-  /* line 80, ../sass/partials/design/_forms.scss */
+  /* line 79, ../sass/partials/design/_forms.scss */
   .sign-in-short form.login {
     display: none;
   }
 }
 
-/* line 92, ../sass/partials/design/_forms.scss */
+/* line 91, ../sass/partials/design/_forms.scss */
 form.new-job .sms {
   width: 3rem;
   float: left;
   margin-right: .5rem;
   text-align: center;
 }
-/* line 99, ../sass/partials/design/_forms.scss */
+/* line 98, ../sass/partials/design/_forms.scss */
 form.new-job .num4 {
   width: 3.5rem;
 }
-/* line 103, ../sass/partials/design/_forms.scss */
+/* line 102, ../sass/partials/design/_forms.scss */
 form.new-job .tel-holder {
   width: 100%;
   float: right;
 }
-/* line 108, ../sass/partials/design/_forms.scss */
+/* line 107, ../sass/partials/design/_forms.scss */
 form.new-job .form-actions {
   clear: both;
   padding: .5rem;
@@ -1533,44 +1550,19 @@ form.new-job .form-actions {
   border-radius: 0.2rem;
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 118, ../sass/partials/design/_forms.scss */
-form.new-job .submit {
-  display: inline-block;
-  width: 71%;
-  border: none;
-  background-color: #3d97d3;
-  clear: both;
-}
-@media (min-width: 450px) {
-  /* line 118, ../sass/partials/design/_forms.scss */
-  form.new-job .submit {
-    width: 120px;
-  }
-}
-/* line 132, ../sass/partials/design/_forms.scss */
-form.new-job .submit {
-  display: inline-block;
-  width: 65%;
-}
-@media (min-width: 450px) {
-  /* line 132, ../sass/partials/design/_forms.scss */
-  form.new-job .submit {
-    width: 120px;
-  }
-}
-/* line 143, ../sass/partials/design/_forms.scss */
+/* line 142, ../sass/partials/design/_forms.scss */
 form.new-job a.secondary-action {
   margin-right: 1rem;
 }
 
-/* line 7, ../sass/partials/design/_design.scss */
+/* line 8, ../sass/partials/design/_design.scss */
 html {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   height: 100%;
 }
 
-/* line 13, ../sass/partials/design/_design.scss */
+/* line 14, ../sass/partials/design/_design.scss */
 body {
   background: #69bcce;
   background: -moz-linear-gradient(top, #69bcce 0%, #45a8bd 100%);
@@ -1591,17 +1583,20 @@ body {
   font-weight: 300;
 }
 
-/* line 20, ../sass/partials/design/_design.scss */
+/* line 21, ../sass/partials/design/_design.scss */
 .box {
   position: relative;
   background: rgba(255, 255, 255, 0.75);
   margin-bottom: 1rem;
   padding: 10px;
-  border: 1px solid #b3b3b3;
   margin: 0 0 1rem 0;
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* line 31, ../sass/partials/design/_design.scss */
+/* line 36, ../sass/partials/design/_design.scss */
 .project {
   position: relative;
   margin: 0 0 0 1rem;
@@ -1609,12 +1604,16 @@ body {
   width: 171px;
   height: 160px;
   background-color: rgba(255, 255, 255, 0.7);
+  -moz-border-radius: 0.2rem;
+  border-radius: 0.2rem;
+  overflow: hidden;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.33);
 }
 
-/* line 41, ../sass/partials/design/_design.scss */
+/* line 50, ../sass/partials/design/_design.scss */
 .project-info {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   width: 100%;
   height: 45px;
   padding: .35rem;
@@ -1622,12 +1621,12 @@ body {
   font-size: .7rem;
   display: block;
 }
-/* line 51, ../sass/partials/design/_design.scss */
+/* line 60, ../sass/partials/design/_design.scss */
 .project-info .model {
   font-weight: bold;
   margin-bottom: .25rem;
 }
-/* line 55, ../sass/partials/design/_design.scss */
+/* line 64, ../sass/partials/design/_design.scss */
 .project-info .like {
   position: absolute;
   top: .3rem;
@@ -1640,7 +1639,7 @@ body {
   border-right: 1px solid #b3b3b3;
   border-bottom: 1px solid #b3b3b3;
 }
-/* line 67, ../sass/partials/design/_design.scss */
+/* line 76, ../sass/partials/design/_design.scss */
 .project-info .heart {
   position: absolute;
   top: .225rem;
@@ -1648,7 +1647,7 @@ body {
   font-size: .9rem;
   color: #c0392b;
 }
-/* line 74, ../sass/partials/design/_design.scss */
+/* line 83, ../sass/partials/design/_design.scss */
 .project-info .score {
   position: absolute;
   top: 1.225rem;
@@ -1657,7 +1656,7 @@ body {
   text-align: center;
 }
 
-/* line 85, ../sass/partials/design/_design.scss */
+/* line 94, ../sass/partials/design/_design.scss */
 .modal {
   position: absolute;
   top: 0;
@@ -1668,7 +1667,7 @@ body {
   display: none;
 }
 
-/* line 95, ../sass/partials/design/_design.scss */
+/* line 104, ../sass/partials/design/_design.scss */
 .dialog {
   display: none;
   position: absolute;
@@ -1679,20 +1678,20 @@ body {
   padding: 0 1rem 1rem 1rem;
   background: rgba(255, 255, 255, 0.95);
 }
-/* line 108, ../sass/partials/design/_design.scss */
+/* line 117, ../sass/partials/design/_design.scss */
 .dialog .cancelme {
   float: right;
   display: inline-block;
   margin-right: 1.2rem;
   margin-top: .25rem;
 }
-/* line 120, ../sass/partials/design/_design.scss */
+/* line 129, ../sass/partials/design/_design.scss */
 .dialog .btn {
   float: left;
   margin-left: 0.5rem;
 }
 
-/* line 126, ../sass/partials/design/_design.scss */
+/* line 135, ../sass/partials/design/_design.scss */
 .sign-in-dialog {
   display: none;
   position: relative;
@@ -1701,12 +1700,12 @@ body {
   padding: 0 1rem 1rem 1rem;
   background: rgba(255, 255, 255, 0.95);
 }
-/* line 136, ../sass/partials/design/_design.scss */
+/* line 145, ../sass/partials/design/_design.scss */
 .sign-in-dialog label {
   display: none;
 }
 
-/* line 143, ../sass/partials/design/_design.scss */
+/* line 150, ../sass/partials/design/_design.scss */
 .wizard {
   position: absolute;
   top: 3rem;
@@ -1717,21 +1716,21 @@ body {
   background: rgba(255, 255, 255, 0.9);
   display: none;
 }
-/* line 153, ../sass/partials/design/_design.scss */
+/* line 160, ../sass/partials/design/_design.scss */
 .wizard p {
   font-size: .9rem;
 }
-/* line 157, ../sass/partials/design/_design.scss */
+/* line 164, ../sass/partials/design/_design.scss */
 .wizard .close {
   width: 1rem;
 }
 
-/* line 165, ../sass/partials/design/_design.scss */
+/* line 172, ../sass/partials/design/_design.scss */
 .top-bar {
   color: white;
 }
 
-/* line 171, ../sass/partials/design/_design.scss */
+/* line 178, ../sass/partials/design/_design.scss */
 .title a:link,
 .title a:active,
 .title a:visited {
@@ -1744,7 +1743,7 @@ body {
   text-decoration: none;
 }
 
-/* line 176, ../sass/partials/design/_design.scss */
+/* line 183, ../sass/partials/design/_design.scss */
 .title a:hover {
   color: white;
   -o-transition: 0.5s;
@@ -1754,48 +1753,85 @@ body {
   transition: 0.5s;
 }
 
-/* line 181, ../sass/partials/design/_design.scss */
+/* line 188, ../sass/partials/design/_design.scss */
 .welcome p {
   color: white;
 }
-/* line 184, ../sass/partials/design/_design.scss */
+/* line 191, ../sass/partials/design/_design.scss */
 .welcome p .welcome-text {
   font-size: 1rem;
   font-weight: bold;
 }
 @media (min-width: 450px) {
-  /* line 184, ../sass/partials/design/_design.scss */
+  /* line 191, ../sass/partials/design/_design.scss */
   .welcome p .welcome-text {
     font-size: 1rem;
   }
 }
 @media (min-width: 768px) {
-  /* line 184, ../sass/partials/design/_design.scss */
+  /* line 191, ../sass/partials/design/_design.scss */
   .welcome p .welcome-text {
     font-size: 1.2rem;
   }
 }
 @media (min-width: 1024px) {
-  /* line 184, ../sass/partials/design/_design.scss */
+  /* line 191, ../sass/partials/design/_design.scss */
   .welcome p .welcome-text {
     font-size: 1.5rem;
   }
 }
 
-/* line 202, ../sass/partials/design/_design.scss */
+/* line 207, ../sass/partials/design/_design.scss */
 .output-text {
   background: white;
   padding: .25rem .5rem;
   font-size: .9rem;
 }
 
-/* line 208, ../sass/partials/design/_design.scss */
+/* line 213, ../sass/partials/design/_design.scss */
 div.output-text {
   margin-top: -.75rem;
 }
 
-/* line 212, ../sass/partials/design/_design.scss */
+/* line 217, ../sass/partials/design/_design.scss */
 .my-jobs p {
   margin-top: 0;
   color: #000;
+}
+
+/* line 222, ../sass/partials/design/_design.scss */
+.cam {
+  -moz-box-shadow: inset 1px 1px 1px #cccccc;
+  -webkit-box-shadow: inset 1px 1px 1px #cccccc;
+  box-shadow: inset 1px 1px 1px #cccccc;
+}
+
+/* line 230, ../sass/partials/design/_design.scss */
+.batch {
+  position: absolute;
+  right: .6rem;
+  top: 1rem;
+  width: 190px;
+  height: 34px;
+  overflow: hidden;
+  background: url(../img/select-arrow.svg) no-repeat right #3d97d3;
+  color: white;
+  border-right: 1px solid #297cb4;
+  border-bottom: 1px solid #297cb4;
+}
+
+/* line 242, ../sass/partials/design/_design.scss */
+.batch select {
+  background: rgba(0, 0, 0, 0);
+  width: 190px;
+  padding: 5px .5rem;
+  border: 0;
+  border-radius: 0;
+  font-size: 16px;
+  line-height: 1;
+  height: 34px;
+  -webkit-appearance: none;
+  color: white;
+  font-size: .9rem;
+  font-weight: 300;
 }

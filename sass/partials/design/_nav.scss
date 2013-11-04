@@ -1,6 +1,8 @@
 .navicon{
-		padding: 7px 7px 5px 7px;
+	padding: 7px 7px 5px 7px;
+	
 	background-color: $blue;
+	@include extrude($blue,1px);
 }
 .navicon:hover,
 .navicon:active{

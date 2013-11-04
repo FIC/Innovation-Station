@@ -75,5 +75,10 @@ a:hover{
 hr {
   border-top: 1px dotted lighten($gray,20);
   height: 1px;
+}
 
+::selection {
+	background: #FE57A1;
+	color: #FFF;
+	text-shadow: none;
 }

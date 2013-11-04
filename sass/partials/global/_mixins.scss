@@ -26,3 +26,9 @@
 @mixin hover($color){
 	background-color:saturate($color, 30);
 }
+
+@mixin extrude($color,$amt){
+	$darkerColor: darken($color,10);
+	border-right: $amt solid $darkerColor;
+	border-bottom: $amt solid $darkerColor;
+}
